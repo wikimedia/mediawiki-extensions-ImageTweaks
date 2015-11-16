@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mark Holmquist"
+		]
+	},
+	"imagetweaks-desc": "{{desc|name=Imagetweaks|url=https://www.mediawiki.org/wiki/Extension:ImageTweaks}}",
+	"editimage": "Label for Special:EditImage, where the user may edit an image via a service.",
+	"editimage-sourcefile-label": "Label for the field indicating what file the user wishes to edit",
+	"editimage-destfile-label": "Label for the field indicating where the user wants the edited file to be saved",
+	"editimage-comment-label": "Label for the field holding the comment to be used during the edit-and-upload operation",
+	"editimage-text-label": "Label for the textarea holdig the description text for the edited file"
+}

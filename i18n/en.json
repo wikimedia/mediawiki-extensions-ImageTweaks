@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"imagetweaks-desc": "API and special pages for editing images on-wiki",
+	"editimage": "Edit an image",
+	"editimage-sourcefile-label": "Source file",
+	"editimage-destfile-label": "Destination file",
+	"editimage-action-label": "Action to perform on the image",
+	"editimage-mdarg-cropx-label": "X coordinate in pixels to start crop",
+	"editimage-mdarg-cropy-label": "Y coordinate in pixels to start crop",
+	"editimage-mdarg-cropwidth-label": "Width in pixels of crop",
+	"editimage-mdarg-cropheight-label": "Height in pixels of crop",
+	"editimage-mdarg-rotatedegrees-label": "Degrees to rotate the image",
+	"editimage-mdarg-rotatecolor-label": "Color to use for background of rotated image",
+	"editimage-comment-label": "Describe your edit",
+	"editimage-text-label": "Describe the edited file"
+}

@@ -1,0 +1,53 @@
+{
+	"name": "ImageTweaks",
+	"version": "0.0.1",
+	"author": [
+		"Mark Holmquist"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ImageTweaks",
+	"descriptionmsg": "imagetweaks-desc",
+	"license-name": "GPL 3.0",
+	"type": "other",
+	"callback": "ImageTweaksHooks::onRegistration",
+	"config": {
+		"ImageTweaksMediaDevilryURL": "http://localhost:2666",
+		"ImageTweaksMediaDevilryTimeout": 100
+	},
+	"APIModules": {
+		"imagetweaks": {
+			"class": "ApiImageTweaks"
+		}
+	},
+	"MessagesDirs": {
+		"ImageTweaks": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"BaseTemplateToolbox": "ImageTweaksHooks::addToolboxLink"
+	},
+	"ResourceModules": {
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "ImageTweaks"
+	},
+	"ExtensionFunctions": [
+		"ImageTweaksHooks::onSetup"
+	],
+	"SpecialPages": {
+		"EditImage": "SpecialEditImage"
+	},
+	"AutoloadClasses": {
+		"ApiImageTweaks": "ApiImageTweaks.php",
+		"HTMLImageDisplayField": "includes/HTMLImageDisplayField.php",
+		"ImageTweaksHooks": "ImageTweaks.hooks.php",
+		"SpecialEditImage": "SpecialEditImage.php",
+		"UploadFromLocalFile": "includes/UploadFromLocalFile.php",
+		"UploadFromRequest": "includes/UploadFromRequest.php"
+	},
+	"ConfigRegistry": {
+		"imagetweaks": "GlobalVarConfig::newInstance"
+	},
+	"manifest_version": 1
+}
