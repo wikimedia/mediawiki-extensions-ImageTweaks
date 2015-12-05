@@ -6,7 +6,7 @@
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:ImageTweaks",
 	"descriptionmsg": "imagetweaks-desc",
-	"license-name": "GPL 3.0",
+	"license-name": "GPL-3.0",
 	"type": "other",
 	"callback": "ImageTweaksHooks::onRegistration",
 	"config": {
