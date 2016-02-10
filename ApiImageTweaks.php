@@ -31,11 +31,14 @@ class ApiImageTweaks extends ApiBase {
 
 	public function execute() {
 		$config = $this->getConfig();
-		$mediaDevilryURL = $config->get( 'ImageTweaksMediaDevilryURL' ) . '/transform';
+		$thumborURL = $config->get( 'ImageTweaksThumborURL' );
 
+		if ( !isset( $thumborURL ) ) {
+			$this->dieUsage( 'Thumbor is not configured for this instance of MediaWiki.' );
+		}
 		$params = $this->extractRequestParams();
 		$upload = new UploadFromLocalFile;
-		$upload->initializeFromParams( $params, $mediaDevilryURL );
+		$upload->initializeFromParams( $params, $thumborURL );
 		$upload->fetchFile();
 		$status = $upload->performUpload( $params['comment'], $params['text'], false, $this->getUser() );
 
@@ -66,7 +69,7 @@ class ApiImageTweaks extends ApiBase {
 	}
 
 	public function getAllowedParams() {
-		$baseParams = array(
+		return array(
 			'text' => array(
 				ApiBase::PARAM_TYPE => 'string',
 			),
@@ -83,31 +86,18 @@ class ApiImageTweaks extends ApiBase {
 				ApiBase::PARAM_TYPE => 'string',
 			),
 
-			'action' => array(
-				ApiBase::PARAM_ISMULTI => true,
+			'filters' => array(
 				ApiBase::PARAM_TYPE => 'string',
 			),
 		);
-
-		$mdargs = UploadFromLocalFile::getAllowedArguments();
-
-		foreach ( $mdargs as $arg ) {
-			$baseParams[$arg] = array(
-				ApiBase::PARAM_TYPE => 'string',
-			);
-		}
-
-		return $baseParams;
 	}
 
 	public function getDescription() {
-		return 'Create a derivative image based on an image already on the wiki.';
+		return 'Create a derivative image based on an image already on the wiki. Note: There is a strong likelihood that you will go over the URL length limit with a request to this API module, so you should use a POST request instead.';
 	}
 
 	public function getExamples() {
 		return array(
-			'api.php?action=imagetweaks&itfile=Foobar.jpg&itaction=crop&itcropx=50&itcropy=50&itcropwidth=200&itcropheight=100&itdestfile=Foobar-cropped.jpg',
-			'api.php?action=imagetweaks&itfile=Foobar.jpg&itaction=rotate&itrotatedegrees=45&itrotatecolor=green&itdestfile=Foobar-rotated.jpg',
 		);
 	}
 }

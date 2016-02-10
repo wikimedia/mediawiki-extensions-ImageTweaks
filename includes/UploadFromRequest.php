@@ -27,6 +27,7 @@
  * @ingroup Upload
  * @author Bryan Tong Minh
  * @author Michael Dale
+ * @author Mark Holmquist
  */
 class UploadFromRequest extends UploadBase {
 	protected $mRequest;

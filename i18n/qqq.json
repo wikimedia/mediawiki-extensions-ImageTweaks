@@ -5,9 +5,19 @@
 		]
 	},
 	"imagetweaks-desc": "{{desc|name=Imagetweaks|url=https://www.mediawiki.org/wiki/Extension:ImageTweaks}}",
-	"editimage": "Label for Special:EditImage, where the user may edit an image via a service.",
-	"editimage-sourcefile-label": "Label for the field indicating what file the user wishes to edit",
-	"editimage-destfile-label": "Label for the field indicating where the user wants the edited file to be saved",
-	"editimage-comment-label": "Label for the field holding the comment to be used during the edit-and-upload operation",
-	"editimage-text-label": "Label for the textarea holdig the description text for the edited file"
+	"imagetweaks-beta-preference-label": "Used on [[Special:Preferences]].\n\nUsed as the label for the checkbox to enable the image editor.",
+	"imagetweaks-beta-preference-desc": "Used on [[Special:Preferences]].\n\nUsed as the description for the checkbox to enable the image editor.",
+	"imagetweaks-beta-preference-info-link": "{{optional|Used on [[Special:Preferences]] as a link to a page where users can learn about the image editor.}}",
+	"imagetweaks-beta-preference-disc-link": "{{optional|Used on [[Special:Preferences]] as a link to a page where users can discuss the image editor.}}",
+	"imagetweaks-editor-open": "Button for opening an interface for visually editing an image on-wiki.",
+	"imagetweaks-editor-save": "Starts the save process for an edited image.",
+	"imagetweaks-editor-undo": "Undoes an action in the image editor.",
+	"imagetweaks-editor-redo": "If a user undoes an action in the image editor, this button re-applies the change.",
+	"imagetweaks-editor-rotate-cc": "Button for rotating an image 90°, counter-clockwise, in the image editor.",
+	"imagetweaks-editor-rotate-c": "Button for rotating an image 90°, clockwise, in the image editor.",
+	"imagetweaks-editor-flip-v": "Button for flipping an image vertically (over the X axis) in the image editor.",
+	"imagetweaks-editor-flip-h": "Button for flipping an image horizontally (over the Y axis) in the image editor.",
+	"imagetweaks-editor-crop": "Opens a cropping interface in the image editor.",
+	"imagetweaks-editor-crop-button": "Finishes a crop in the image editor.",
+	"imagetweaks-editor-cancel": "Cancels an interactive editing action, like cropping."
 }

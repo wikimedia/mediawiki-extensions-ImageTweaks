@@ -10,8 +10,9 @@
 	"type": "other",
 	"callback": "ImageTweaksHooks::onRegistration",
 	"config": {
-		"ImageTweaksMediaDevilryURL": "http://localhost:2666",
-		"ImageTweaksMediaDevilryTimeout": 100
+		"ImageTweaksEnabled": false,
+		"ImageTweaksInBeta": false,
+		"ImageTweaksThumborURL": "http://localhost:8888/unsafe/"
 	},
 	"APIModules": {
 		"imagetweaks": {
@@ -24,9 +25,80 @@
 		]
 	},
 	"Hooks": {
-		"BaseTemplateToolbox": "ImageTweaksHooks::addToolboxLink"
+		"BeforePageDisplay": "ImageTweaksHooks::getModulesForFilePage",
+		"GetBetaFeaturePreferences": "ImageTweaksHooks::addBetaPreference"
 	},
 	"ResourceModules": {
+		"imagetweaks.bootstrap": {
+			"scripts": [
+				"resources/src/imagetweaks.bootstrap.js"
+			],
+
+			"styles": [
+				"resources/src/imagetweaks.css"
+			],
+
+			"messages": [
+				"imagetweaks-editor-open",
+				"imagetweaks-editor-save",
+				"imagetweaks-editor-undo",
+				"imagetweaks-editor-redo",
+				"imagetweaks-editor-rotate-cc",
+				"imagetweaks-editor-rotate-c",
+				"imagetweaks-editor-flip-v",
+				"imagetweaks-editor-flip-h",
+				"imagetweaks-editor-crop",
+				"imagetweaks-editor-crop-button",
+				"imagetweaks-editor-cancel"
+			],
+
+			"dependencies": [
+				"mediawiki.Title"
+			]
+		},
+
+		"ImageEditor": {
+			"scripts": [
+				"resources/lib/imageeditor/imageeditor.js"
+			],
+
+			"styles": [
+				"resources/lib/imageeditor/master.css"
+			],
+
+			"dependencies": [
+				"mediawiki.Upload",
+				"oojs-ui",
+				"caman",
+				"imagetool",
+				"exifrestorer",
+				"jquery.ui.resizable",
+				"jquery.ui.draggable"
+			]
+		},
+
+		"caman": {
+			"scripts": [
+				"resources/lib/imageeditor/caman.full.js",
+				"resources/lib/imageeditor/caman.flip.js"
+			]
+		},
+
+		"exifrestorer": {
+			"scripts": [
+				"resources/lib/imageeditor/ExifRestorer.js"
+			]
+		},
+
+		"imagetool": {
+			"scripts": [
+				"resources/lib/imageeditor/imagetool.js"
+			],
+
+			"dependencies": [
+				"oojs"
+			]
+		}
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
@@ -35,14 +107,10 @@
 	"ExtensionFunctions": [
 		"ImageTweaksHooks::onSetup"
 	],
-	"SpecialPages": {
-		"EditImage": "SpecialEditImage"
-	},
 	"AutoloadClasses": {
 		"ApiImageTweaks": "ApiImageTweaks.php",
 		"HTMLImageDisplayField": "includes/HTMLImageDisplayField.php",
 		"ImageTweaksHooks": "ImageTweaks.hooks.php",
-		"SpecialEditImage": "SpecialEditImage.php",
 		"UploadFromLocalFile": "includes/UploadFromLocalFile.php",
 		"UploadFromRequest": "includes/UploadFromRequest.php"
 	},
