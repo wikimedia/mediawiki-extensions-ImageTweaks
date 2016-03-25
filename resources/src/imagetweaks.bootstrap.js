@@ -72,10 +72,22 @@
 					action: 'imagetweaks',
 					itfile: title.getPrefixedText(),
 					itdestfile: title.getNameText() + ' (edited - ' + Date.now() + ').' + extension,
-					itfilters: filters.join( ':' )
+					itfilters: filters.join( ':' ),
+					itstash: true
 				} ).done( function ( result ) {
-					var rtitle = mw.Title.newFromText( result.imagetweaks.filename, 6 );
-					window.location = rtitle.getUrl();
+					var dialog = new mw.Upload.Dialog( {
+							booklet: {
+								filekey: result.imagetweaks.filekey
+							}
+						} ),
+						wm = new OO.ui.WindowManager();
+
+					$( 'body' ).append( wm.$element );
+					wm.addWindows( [ dialog ] );
+
+					$( '#imageeditor-container' ).hide();
+
+					wm.openWindow( dialog );
 				} );
 			} );
 		} );
