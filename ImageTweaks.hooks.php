@@ -30,14 +30,47 @@ class ImageTweaksHooks {
 		return true;
 	}
 
-	public static function addToolboxLink( BaseTemplate $baseTemplate, array &$toolbox ) {
-		$skin = $baseTemplate->getSkin();
-		$thisPage = $skin->getTitle();
+	public static function addBetaPreference( User $user, array &$preferences ) {
+		$coreConfig = RequestContext::getMain()->getConfig();
+		$iconpath = $coreConfig->get( 'ExtensionAssetsPath' ) . "/ImageTweaks";
+		$preferences['image-tweaks'] = array(
+			'version' => '1.0',
+			'label-message' => 'imagetweaks-beta-preference-label',
+			'desc-message' => 'imagetweaks-beta-preference-desc',
+			'screenshot' => array(
+				'ltr' => "$iconpath/betafeatures-icon-ImageTweaks-ltr.svg",
+				'rtl' => "$iconpath/betafeatures-icon-ImageTweaks-rtl.svg",
+			),
+			'info-message' => 'imagetweaks-beta-preference-info-link',
+			'discussion-message' => 'imagetweaks-beta-preference-disc-link',
+			'requirements' => array(
+				'javascript' => true,
+			),
+		);
+	}
 
-		if ( $thisPage->inNamespace( NS_FILE ) ) {
-			$title = SpecialPage::getSafeTitleFor( 'EditImage', $thisPage->getPrefixedText() );
-			$url = $title->getLocalURL( '' );
-			$toolbox['editimage'] = array( 'href' => $url );
+	/**
+	 * Handler for BeforePageDisplay hook
+	 * Adds ImageTweaks bootstrap module to file pages when the
+	 * user has enabled the feature.
+	 * @param OutputPage $out
+	 * @param Skin $skin
+	 * @return bool
+	 */
+	public static function getModulesForFilePage( &$out, &$skin ) {
+		if ( $out->getTitle()->inNamespace( NS_FILE ) ) {
+			$user = $out->getUser();
+			$conf = $out->getConfig();
+			$enabled = $conf->get( 'ImageTweaksEnabled' );
+			$inbeta = $conf->get( 'ImageTweaksInBeta' );
+
+			if ( $enabled && $inbeta && class_exists( 'BetaFeatures' ) ) {
+				$enabled = BetaFeatures::isFeatureEnabled( $out->getUser(), 'image-tweaks' );
+			}
+
+			if ( $enabled ) {
+				$out->addModules( array( 'imagetweaks.bootstrap' ) );
+			}
 		}
 
 		return true;

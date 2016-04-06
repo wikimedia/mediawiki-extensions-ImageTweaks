@@ -28,33 +28,23 @@
  * @ingroup Upload
  * @author Bryan Tong Minh
  * @author Michael Dale
+ * @author Mark Holmquist
  */
 class UploadFromLocalFile extends UploadFromRequest {
 	protected $mRequest;
 	protected $mIgnoreWarnings = true;
 	protected $mTempPath, $mTmpHandle;
 
-	protected static $mdargs = array(
-		'cropx',
-		'cropy',
-		'cropwidth',
-		'cropheight',
-		'rotatedegrees',
-		'rotatecolor',
-	);
-
-	public static function getAllowedArguments() {
-		return self::$mdargs;
-	}
-
 	/**
 	 * Entry point
 	 *
 	 * @param string $name
 	 * @param string $sourcename
+	 * @param string $filters
+	 * @param string $url
 	 * @throws MWException
 	 */
-	public function initializeFromData( $name, $sourcename, $actions, $args, $url ) {
+	public function initializeFromData( $name, $sourcename, $filters, $url ) {
 		$repoGroup = RepoGroup::singleton();
 		$repoGroup->initialiseRepos();
 		$repo = $repoGroup->getLocalRepo();
@@ -74,8 +64,12 @@ class UploadFromLocalFile extends UploadFromRequest {
 			}
 		}
 
+		$fileurl = $file->getFullURL();
+
+		$url = $url . 'filters:' . $filters . '/' . $fileurl;
+
 		$request = MWHttpRequest::factory( $url, array(
-			'method' => 'POST',
+			'method' => 'GET',
 		) );
 
 		if ( !$request::SUPPORTS_FILE_POSTS ) {
@@ -83,10 +77,6 @@ class UploadFromLocalFile extends UploadFromRequest {
 		}
 
 		$request->setHeader( 'Content-type', 'multipart/form-data' );
-		$request->setData( array(
-			'file' => new CURLFile( $file->getLocalRefPath() ),
-			'action' => implode( $actions, '|' ),
-		) + $args );
 
 		parent::initialize( $name, $request );
 	}
@@ -94,10 +84,9 @@ class UploadFromLocalFile extends UploadFromRequest {
 	public function initializeFromParams( $params, $url ) {
 		$filename = $params[ 'file' ];
 		$destfilename = $params[ 'destfile' ];
-		$actions = $params[ 'action' ];
-		$args = $this->getMDArgs( $params );
+		$filters = $params[ 'filters' ];
 
-		$this->initializeFromData( $destfilename, $filename, $actions, $args, $url );
+		$this->initializeFromData( $destfilename, $filename, $filters, $url );
 	}
 
 	protected function getMDArgs( $params ) {
