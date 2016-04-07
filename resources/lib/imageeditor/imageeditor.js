@@ -158,12 +158,22 @@ mw.ImageEditor.prototype.initialize = function () {
  * Closes the editor.
  */
 mw.ImageEditor.prototype.close = function () {
+	this.cleanUpTools();
 	this.$element.remove();
+};
 
-	// TODO hacky, standardize tool cleanup
-	if ( this.tools.crop && this.tools.crop.$cover ) {
-		this.tools.crop.$cover.remove();
-	}
+/**
+ * Cleans up interface loaded by interactive tools
+ */
+mw.ImageEditor.prototype.cleanUpTools = function () {
+	$.each( this.tools, function( name, tool ) {
+		if (
+			tool.destroyInterface !== null &&
+			tool.destroyInterface !== undefined
+		) {
+			tool.destroyInterface();
+		}
+	} );
 };
 
 /**
@@ -568,10 +578,7 @@ mw.ImageEditor.prototype.registerCoreTools = function () {
 			this.$cover.remove();
 		}.bind( this ) );
 
-		this.cancel.on( 'click', function () {
-			this.$cover.remove();
-			this.deferred.reject();
-		}.bind( this ) );
+		this.cancel.on( 'click', this.destroyInterface.bind( this ) );
 
 		controls = new OO.ui.HorizontalLayout( {
 			items: [
@@ -586,6 +593,11 @@ mw.ImageEditor.prototype.registerCoreTools = function () {
 		panel.$element.append( controls.$element );
 
 		this.drawCropTool( image );
+	};
+
+	crop.destroyInterface = function () {
+		this.$cover.remove();
+		this.deferred.reject();
 	};
 
 	crop.drawCropTool = function ( image ) {
