@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"imagetweaks-desc": "Приложник и службени страници за уредување на слики на самото вики",
+	"imagetweaks-beta-preference-label": "Уредување слики на вики",
+	"imagetweaks-beta-preference-desc": "Брзо превртување, свртување и кастрење слики кои веќе се наоѓаат на ова вики, во прелистувачот",
+	"imagetweaks-editor-open": "Брзо уредување на сликава",
+	"imagetweaks-editor-save": "Зачувај",
+	"imagetweaks-editor-undo": "Откажи",
+	"imagetweaks-editor-redo": "Врати",
+	"imagetweaks-editor-rotate-cc": "Сврти налево",
+	"imagetweaks-editor-rotate-c": "Сврти надесно",
+	"imagetweaks-editor-flip-v": "Преврти по вертикала",
+	"imagetweaks-editor-flip-h": "Преврти по хоризонтала",
+	"imagetweaks-editor-crop": "Скастри",
+	"imagetweaks-editor-crop-button": "Скастри",
+	"imagetweaks-editor-cancel": "Откажи"
+}

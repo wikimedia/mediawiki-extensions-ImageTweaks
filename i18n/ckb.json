@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sarchia"
+		]
+	},
+	"imagetweaks-editor-open": "دەستکاریکردنی خێرای ئەم وێنەیە",
+	"imagetweaks-editor-save": "پاشەکەوتکردن",
+	"imagetweaks-editor-undo": "پووچەڵکردنەوە",
+	"imagetweaks-editor-crop": "بڕین",
+	"imagetweaks-editor-crop-button": "بڕین",
+	"imagetweaks-editor-cancel": "ھەڵوەشاندنەوە"
+}

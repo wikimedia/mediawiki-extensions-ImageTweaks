@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"imagetweaks-desc": "Ergänzt eine API und Spezialseiten zur Bearbeitung von Bildern im Wiki",
+	"imagetweaks-beta-preference-label": "Bildbearbeitung im Wiki",
+	"imagetweaks-beta-preference-desc": "Kippt, dreht oder schneidet Bilder schnell bereits auf diesem Wiki in deinem Browser ab.",
+	"imagetweaks-editor-open": "Dieses Bild schnell bearbeiten",
+	"imagetweaks-editor-save": "Speichern",
+	"imagetweaks-editor-undo": "Rückgängig",
+	"imagetweaks-editor-redo": "Wiederholen",
+	"imagetweaks-editor-rotate-cc": "Gegen den Uhrzeigersinn drehen",
+	"imagetweaks-editor-rotate-c": "Im Uhrzeigersinn drehen",
+	"imagetweaks-editor-flip-v": "Vertikal kippen",
+	"imagetweaks-editor-flip-h": "Horizontal kippen",
+	"imagetweaks-editor-crop": "Abschneiden",
+	"imagetweaks-editor-crop-button": "Abschneiden",
+	"imagetweaks-editor-cancel": "Abbrechen"
+}

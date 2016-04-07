@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"imagetweaks-desc": "API та спеціальні сторінки для редагування зображень у вікі",
+	"imagetweaks-beta-preference-label": "Редагування зображень у вікі",
+	"imagetweaks-beta-preference-desc": "Швидко віддзеркалюйте, обертайте, або обрізайте зображення з цієї вікі у своєму браузері.",
+	"imagetweaks-editor-open": "Швидко редагувати це зображення",
+	"imagetweaks-editor-save": "Зберегти",
+	"imagetweaks-editor-undo": "Повернути",
+	"imagetweaks-editor-redo": "Повторити",
+	"imagetweaks-editor-rotate-cc": "Повернути проти годинникової стрілки",
+	"imagetweaks-editor-rotate-c": "Повернути за годинниковою стрілкою",
+	"imagetweaks-editor-flip-v": "Віддзеркалити вертикально",
+	"imagetweaks-editor-flip-h": "Віддзеркалити горизонтально",
+	"imagetweaks-editor-crop": "Обрізати",
+	"imagetweaks-editor-crop-button": "Обрізати",
+	"imagetweaks-editor-cancel": "Скасувати"
+}

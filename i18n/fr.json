@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"imagetweaks-desc": "API et pages spéciales pour modifier les images dans le wiki",
+	"imagetweaks-beta-preference-label": "Modification d’images dans le wiki",
+	"imagetweaks-beta-preference-desc": "Retourner, faire pivoter ou retailler rapidement des images déjà sur ce wiki, dans votre navigateur.",
+	"imagetweaks-editor-open": "Modifier rapidement cette image",
+	"imagetweaks-editor-save": "Enregistrer",
+	"imagetweaks-editor-undo": "Annuler",
+	"imagetweaks-editor-redo": "Refaire",
+	"imagetweaks-editor-rotate-cc": "Faire pivoter dans le sens trigonométrique",
+	"imagetweaks-editor-rotate-c": "Faire pivoter dans le sens des aiguilles d’une montre",
+	"imagetweaks-editor-flip-v": "Retourner verticalement",
+	"imagetweaks-editor-flip-h": "Retourner horizontalement",
+	"imagetweaks-editor-crop": "Retailler",
+	"imagetweaks-editor-crop-button": "Retailler",
+	"imagetweaks-editor-cancel": "Annuler"
+}

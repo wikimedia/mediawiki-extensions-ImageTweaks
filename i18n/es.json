@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"imagetweaks-desc": "API y páginas especiales para la edición de imágenes en el wiki",
+	"imagetweaks-beta-preference-label": "Edición de imágenes en el wiki",
+	"imagetweaks-beta-preference-desc": "Voltear, rotar o recortar rápidamente imágenes que ya están en el wiki desde tu navegador.",
+	"imagetweaks-editor-open": "Editar rápidamente esta imagen",
+	"imagetweaks-editor-save": "Guardar",
+	"imagetweaks-editor-undo": "Deshacer",
+	"imagetweaks-editor-redo": "Rehacer",
+	"imagetweaks-editor-rotate-cc": "Rotar a la izquierda",
+	"imagetweaks-editor-rotate-c": "Rotar a la derecha",
+	"imagetweaks-editor-flip-v": "Voltear verticalmente",
+	"imagetweaks-editor-flip-h": "Voltear horizontalmente",
+	"imagetweaks-editor-crop": "Recortar",
+	"imagetweaks-editor-crop-button": "Recortar",
+	"imagetweaks-editor-cancel": "Cancelar"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"imagetweaks-desc": "用于在wiki上编辑图片的API和特殊页面",
+	"imagetweaks-beta-preference-label": "在wiki上的图片编辑",
+	"imagetweaks-beta-preference-desc": "快速翻转、旋转或修补图片已存在于该wiki，在您的浏览器中。",
+	"imagetweaks-editor-open": "快速编辑此图片",
+	"imagetweaks-editor-save": "保存",
+	"imagetweaks-editor-undo": "撤销",
+	"imagetweaks-editor-redo": "重做",
+	"imagetweaks-editor-rotate-cc": "逆时针旋转",
+	"imagetweaks-editor-rotate-c": "顺时针旋转",
+	"imagetweaks-editor-flip-v": "垂直翻转",
+	"imagetweaks-editor-flip-h": "水平翻转",
+	"imagetweaks-editor-crop": "修补",
+	"imagetweaks-editor-crop-button": "修补",
+	"imagetweaks-editor-cancel": "取消"
+}

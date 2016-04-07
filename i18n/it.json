@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"imagetweaks-editor-save": "Salva",
+	"imagetweaks-editor-undo": "Annulla",
+	"imagetweaks-editor-redo": "Ripeti",
+	"imagetweaks-editor-cancel": "Annulla"
+}
