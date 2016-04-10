@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"SolidBlock"
+		]
+	},
+	"imagetweaks-beta-preference-label": "在wiki上的图片编辑",
+	"imagetweaks-editor-save": "存下来",
+	"imagetweaks-editor-undo": "消嘎",
+	"imagetweaks-editor-redo": "重搞",
+	"imagetweaks-editor-rotate-c": "顺时针旋转",
+	"imagetweaks-editor-flip-v": "垂直翻转",
+	"imagetweaks-editor-crop": "修补",
+	"imagetweaks-editor-crop-button": "修",
+	"imagetweaks-editor-cancel": "退噶"
+}

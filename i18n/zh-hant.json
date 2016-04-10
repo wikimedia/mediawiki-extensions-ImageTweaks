@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"imagetweaks-editor-save": "儲存",
+	"imagetweaks-editor-undo": "還原",
+	"imagetweaks-editor-redo": "重做",
+	"imagetweaks-editor-cancel": "取消"
+}

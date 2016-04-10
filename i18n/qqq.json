@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mark Holmquist"
+			"Mark Holmquist",
+			"Liuxinyu970226"
 		]
 	},
 	"imagetweaks-desc": "{{desc|name=Imagetweaks|url=https://www.mediawiki.org/wiki/Extension:ImageTweaks}}",
@@ -10,14 +11,14 @@
 	"imagetweaks-beta-preference-info-link": "{{optional|Used on [[Special:Preferences]] as a link to a page where users can learn about the image editor.}}",
 	"imagetweaks-beta-preference-disc-link": "{{optional|Used on [[Special:Preferences]] as a link to a page where users can discuss the image editor.}}",
 	"imagetweaks-editor-open": "Button for opening an interface for visually editing an image on-wiki.",
-	"imagetweaks-editor-save": "Starts the save process for an edited image.",
-	"imagetweaks-editor-undo": "Undoes an action in the image editor.",
-	"imagetweaks-editor-redo": "If a user undoes an action in the image editor, this button re-applies the change.",
+	"imagetweaks-editor-save": "Starts the save process for an edited image.\n{{Identical|Save}}",
+	"imagetweaks-editor-undo": "Undoes an action in the image editor.\n{{Identical|Undo}}",
+	"imagetweaks-editor-redo": "If a user undoes an action in the image editor, this button re-applies the change.\n{{Identical|Redo}}",
 	"imagetweaks-editor-rotate-cc": "Button for rotating an image 90°, counter-clockwise, in the image editor.",
 	"imagetweaks-editor-rotate-c": "Button for rotating an image 90°, clockwise, in the image editor.",
 	"imagetweaks-editor-flip-v": "Button for flipping an image vertically (over the X axis) in the image editor.",
 	"imagetweaks-editor-flip-h": "Button for flipping an image horizontally (over the Y axis) in the image editor.",
-	"imagetweaks-editor-crop": "Opens a cropping interface in the image editor.",
-	"imagetweaks-editor-crop-button": "Finishes a crop in the image editor.",
-	"imagetweaks-editor-cancel": "Cancels an interactive editing action, like cropping."
+	"imagetweaks-editor-crop": "Opens a cropping interface in the image editor.\n{{Identical|Crop}}",
+	"imagetweaks-editor-crop-button": "Finishes a crop in the image editor.\n{{Identical|Crop}}",
+	"imagetweaks-editor-cancel": "Cancels an interactive editing action, like cropping.\n{{Identical|Cancel}}"
 }

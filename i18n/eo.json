@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin van der Vliet"
+		]
+	},
+	"imagetweaks-editor-save": "Konservi",
+	"imagetweaks-editor-undo": "Malfari",
+	"imagetweaks-editor-redo": "Refari",
+	"imagetweaks-editor-cancel": "Nuligi"
+}

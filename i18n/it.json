@@ -4,8 +4,18 @@
 			"Beta16"
 		]
 	},
+	"imagetweaks-desc": "API e pagine speciali per la modifica di immagini sul wiki",
+	"imagetweaks-beta-preference-label": "Modifica immagine sul wiki",
+	"imagetweaks-beta-preference-desc": "Capovolgi, ruota o ritaglia rapidamente le immagini già su questo wiki, nel tuo browser.",
+	"imagetweaks-editor-open": "Modifica rapidamente questa immagine",
 	"imagetweaks-editor-save": "Salva",
 	"imagetweaks-editor-undo": "Annulla",
 	"imagetweaks-editor-redo": "Ripeti",
+	"imagetweaks-editor-rotate-cc": "Ruota in senso antiorario",
+	"imagetweaks-editor-rotate-c": "Ruota in senso orario",
+	"imagetweaks-editor-flip-v": "Capovolgi verticalmente",
+	"imagetweaks-editor-flip-h": "Capovolgi orizzontalmente",
+	"imagetweaks-editor-crop": "Ritaglia",
+	"imagetweaks-editor-crop-button": "Ritaglia",
 	"imagetweaks-editor-cancel": "Annulla"
 }

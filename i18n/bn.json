@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman"
+		]
+	},
+	"imagetweaks-desc": "উইকিতে চিত্র সম্পাদনার জন্য API এবং বিশেষ পাতাসমূহ",
+	"imagetweaks-beta-preference-label": "উইকি চিত্র সম্পাদনা করুন",
+	"imagetweaks-beta-preference-desc": "আপনার ব্রাউজারে, এই উইকিতে ইতিমধ্যে চিত্রসমূহ দ্রুত কাটা, ঘূর্ণন, উল্টানো আছে।",
+	"imagetweaks-editor-open": "এই চিত্র দ্রুত সম্পাদনা করুন",
+	"imagetweaks-editor-save": "সংরক্ষণ",
+	"imagetweaks-editor-undo": "পূর্বাবস্থা",
+	"imagetweaks-editor-redo": "পুনরায় করো",
+	"imagetweaks-editor-rotate-cc": "ঘড়ির কাঁটার বিপরীতে ঘোরান",
+	"imagetweaks-editor-rotate-c": "ঘড়ির কাঁটার দিকে ঘোরান",
+	"imagetweaks-editor-flip-v": "উল্লম্বভাবে উল্টান",
+	"imagetweaks-editor-flip-h": "অনুভূমিকভাবে উল্টান",
+	"imagetweaks-editor-crop": "কাটুন",
+	"imagetweaks-editor-crop-button": "কাটুন",
+	"imagetweaks-editor-cancel": "বাতিল"
+}

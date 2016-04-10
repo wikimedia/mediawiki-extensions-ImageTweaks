@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Wladek92"
 		]
 	},
 	"imagetweaks-desc": "API et pages spéciales pour modifier les images dans le wiki",
@@ -11,7 +12,7 @@
 	"imagetweaks-editor-save": "Enregistrer",
 	"imagetweaks-editor-undo": "Annuler",
 	"imagetweaks-editor-redo": "Refaire",
-	"imagetweaks-editor-rotate-cc": "Faire pivoter dans le sens trigonométrique",
+	"imagetweaks-editor-rotate-cc": "Faire pivoter dans le sens des aiguilles d'une montre",
 	"imagetweaks-editor-rotate-c": "Faire pivoter dans le sens des aiguilles d’une montre",
 	"imagetweaks-editor-flip-v": "Retourner verticalement",
 	"imagetweaks-editor-flip-h": "Retourner horizontalement",

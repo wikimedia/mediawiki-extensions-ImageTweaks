@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"imagetweaks-editor-save": "Zapisz",
+	"imagetweaks-editor-undo": "Cofnij",
+	"imagetweaks-editor-redo": "Ponów",
+	"imagetweaks-editor-rotate-c": "Obróć w prawo",
+	"imagetweaks-editor-cancel": "Anuluj"
+}

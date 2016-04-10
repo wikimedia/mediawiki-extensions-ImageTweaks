@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diniscoelho",
+			"Vitorvicentevalente"
+		]
+	},
+	"imagetweaks-editor-save": "Gravar",
+	"imagetweaks-editor-undo": "Desfazer",
+	"imagetweaks-editor-redo": "Refazer",
+	"imagetweaks-editor-rotate-cc": "Girar no sentido anti-horário",
+	"imagetweaks-editor-rotate-c": "Girar em sentido horário",
+	"imagetweaks-editor-flip-v": "Girar verticalmente",
+	"imagetweaks-editor-flip-h": "Girar horizontalmente",
+	"imagetweaks-editor-crop": "Cortar",
+	"imagetweaks-editor-crop-button": "Cortar",
+	"imagetweaks-editor-cancel": "Cancelar"
+}
