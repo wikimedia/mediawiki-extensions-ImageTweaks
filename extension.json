@@ -59,11 +59,11 @@
 
 		"ImageEditor": {
 			"scripts": [
-				"resources/lib/imageeditor/imageeditor.js"
+				"resources/src/imageeditor.js"
 			],
 
 			"styles": [
-				"resources/lib/imageeditor/master.css"
+				"resources/src/master.css"
 			],
 
 			"dependencies": [
@@ -93,13 +93,13 @@
 
 		"exifrestorer": {
 			"scripts": [
-				"resources/lib/imageeditor/ExifRestorer.js"
+				"resources/lib/ExifRestorer.js"
 			]
 		},
 
 		"imagetool": {
 			"scripts": [
-				"resources/lib/imageeditor/imagetool.js"
+				"resources/src/imagetool.js"
 			],
 
 			"dependencies": [
