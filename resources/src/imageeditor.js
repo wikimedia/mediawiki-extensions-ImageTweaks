@@ -178,6 +178,7 @@ mw.ImageEditor.prototype.cleanUpTools = function () {
 
 /**
  * Getter method for current image in Base64.
+ *
  * @param {string} type
  */
 mw.ImageEditor.prototype.getImage = function ( type ) {

@@ -19,11 +19,11 @@
 			} );
 
 		$.when( modulePromise, apiPromise ).then( function ( moduleArgs, apiArgs ) {
-			var result = apiArgs[0],
+			var result = apiArgs[ 0 ],
 				dotExtension = title.getDotExtension(),
 				extension = mw.Title.normalizeExtension( dotExtension.replace( /^\./, '' ) ),
 				editor = new mw.ImageEditor( {
-					imagePath: result.query.pages[result.query.pageids[0]].imageinfo[0].url,
+					imagePath: result.query.pages[ result.query.pageids[ 0 ] ].imageinfo[ 0 ].url,
 					cb: function () {
 						origBase64 = editor.getImage( extension );
 					}
@@ -44,7 +44,7 @@
 					filters = [];
 
 				for ( i = 0; i < actions.length; i++ ) {
-					action = actions[i];
+					action = actions[ i ];
 					args = action.action;
 
 					switch ( action.name ) {
@@ -57,7 +57,7 @@
 						case 'crop':
 							right = Number( args.x ) + Number( args.width );
 							bottom = Number( args.y ) + Number( args.height );
-							filters.push( 'crop(' + [ args.x , args.y, right, bottom ].join( ',' ) + ')' );
+							filters.push( 'crop(' + [ args.x, args.y, right, bottom ].join( ',' ) + ')' );
 							break;
 						case 'rotateClockwise':
 							filters.push( 'rotate(270)' );
