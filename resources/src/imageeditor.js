@@ -1,4 +1,4 @@
-( function ( $, OO, ImageTool, Caman, mw ) {
+( function ( $, OO, Caman, mw ) {
 
 /**
  * @class mw.ImageEditor
@@ -100,7 +100,7 @@ mw.ImageEditor = function ( config ) {
 
 	/**
 	 * @private
-	 * @property {Object} tools Instances of ImageTools registered with the ImageEditor
+	 * @property {Object} tools Instances of mw.ImageTools registered with the ImageEditor
 	 */
 	this.tools = {};
 
@@ -408,7 +408,7 @@ mw.ImageEditor.prototype.setupTools = function () {
 };
 
 /**
- * Sets up an instance of ImageTool with the toolbar.
+ * Sets up an instance of mw.ImageTool with the toolbar.
  *
  * @private
  */
@@ -459,7 +459,7 @@ mw.ImageEditor.prototype.setupTool = function ( tool ) {
 };
 
 /**
- * Register an ImageTool with the editor
+ * Register an mw.ImageTool with the editor
  */
 mw.ImageEditor.prototype.registerTool = function ( tool ) {
 	this.tools[ tool.name ] = tool;
@@ -473,7 +473,7 @@ mw.ImageEditor.prototype.registerTool = function ( tool ) {
 mw.ImageEditor.prototype.registerCoreTools = function () {
 	var rotateCounterClockwise, rotateClockwise, flipVertical, flipHorizontal, crop;
 
-	rotateCounterClockwise = new ImageTool( {
+	rotateCounterClockwise = new mw.ImageTool( {
 		name: 'rotateCounterClockwise',
 		icon: 'rotate-counter-clockwise',
 		title: mw.message( 'imagetweaks-editor-rotate-cc' ).text()
@@ -489,7 +489,7 @@ mw.ImageEditor.prototype.registerCoreTools = function () {
 	};
 	this.registerTool( rotateCounterClockwise );
 
-	rotateClockwise = new ImageTool( {
+	rotateClockwise = new mw.ImageTool( {
 		name: 'rotateClockwise',
 		icon: 'rotate-clockwise',
 		title: mw.message( 'imagetweaks-editor-rotate-c' ).text()
@@ -505,7 +505,7 @@ mw.ImageEditor.prototype.registerCoreTools = function () {
 	};
 	this.registerTool( rotateClockwise );
 
-	flipVertical = new ImageTool( {
+	flipVertical = new mw.ImageTool( {
 		name: 'flipVertical',
 		icon: 'flip-vertical',
 		title: mw.message( 'imagetweaks-editor-flip-v' ).text()
@@ -521,7 +521,7 @@ mw.ImageEditor.prototype.registerCoreTools = function () {
 	};
 	this.registerTool( flipVertical );
 
-	flipHorizontal = new ImageTool( {
+	flipHorizontal = new mw.ImageTool( {
 		name: 'flipHorizontal',
 		icon: 'flip-horizontal',
 		title: mw.message( 'imagetweaks-editor-flip-h' ).text()
@@ -537,7 +537,7 @@ mw.ImageEditor.prototype.registerCoreTools = function () {
 	};
 	this.registerTool( flipHorizontal );
 
-	crop = new ImageTool( {
+	crop = new mw.ImageTool( {
 		name: 'crop',
 		icon: 'crop',
 		title: mw.message( 'imagetweaks-editor-crop' ).text(),
@@ -690,4 +690,4 @@ mw.ImageEditor.prototype.registerCoreTools = function () {
 
 };
 
-}( jQuery, OO, ImageTool, Caman, mediaWiki ) );
+}( jQuery, OO, Caman, mediaWiki ) );

@@ -1,9 +1,7 @@
-( function ( $, OO ) {
-
-var ImageTool;
+( function ( $, OO, mw ) {
 
 /**
- * @class ImageTool
+ * @class mw.ImageTool
  *
  * Tools used within ImageEditor.
  *
@@ -11,7 +9,7 @@ var ImageTool;
  * To register a simple tool like rotate, only implement the
  * {@link #doAction} and {@link #undoAction} methods.
  *
- *     rotateClockwise = new ImageTool( {
+ *     rotateClockwise = new mw.ImageTool( {
  *     	name: 'rotateClockwise',
  *     	icon: 'rotate-clockwise',
  *     	title: 'Rotate clockwise'
@@ -51,7 +49,7 @@ var ImageTool;
  * editor. The additional interface of the tool is responsible for calling
  * {@link #doAction} with the right parameters.
  *
- *     crop = new ImageTool( {
+ *     crop = new mw.ImageTool( {
  *     	name: 'crop',
  *     	icon: 'crop',
  *     	title: 'Crop',
@@ -142,7 +140,7 @@ var ImageTool;
  * @cfg {string} title (required)
  * @cfg {boolean} [isInteractive=false]
  */
-ImageTool = function ( config ) {
+mw.ImageTool = function ( config ) {
 
 	if (
 		config.name === undefined ||
@@ -158,7 +156,7 @@ ImageTool = function ( config ) {
 	this.isInteractive = config.isInteractive || false;
 };
 
-OO.initClass( ImageTool );
+OO.initClass( mw.ImageTool );
 
 /**
  * Does the action of the tool.
@@ -171,7 +169,7 @@ OO.initClass( ImageTool );
  * editor. This action should have data required by the tool to undo
  * its action.
  */
-ImageTool.prototype.doAction = null;
+mw.ImageTool.prototype.doAction = null;
 
 /**
  * Undoes the action of the tool.
@@ -181,7 +179,7 @@ ImageTool.prototype.doAction = null;
  * @param {Caman} image Caman image object to be manipulated.
  * @param {Object} action Passes previously saved action data to undo.
  */
-ImageTool.prototype.undoAction = null;
+mw.ImageTool.prototype.undoAction = null;
 
 // Interactive tool specific methods
 
@@ -193,7 +191,7 @@ ImageTool.prototype.undoAction = null;
  * @param {Caman} image Caman image object to be manipulated.
  * @param {OO.ui.PanelLayout} panel Panel object to render additional UI for the tool
  */
-ImageTool.prototype.getAction = function ( image, panel ) {
+mw.ImageTool.prototype.getAction = function ( image, panel ) {
 	this.deferred = $.Deferred();
 	this.setupInterface( image, panel );
 	return this.deferred.promise();
@@ -210,18 +208,16 @@ ImageTool.prototype.getAction = function ( image, panel ) {
  * @param {Caman} image Caman image object to be manipulated.
  * @param {OO.ui.PanelLayout} panel Panel object to render additional UI for the tool
  */
-ImageTool.prototype.setupInterface = null;
+mw.ImageTool.prototype.setupInterface = null;
 
 /**
- * Called by {@link #ImageEditor.cleanUpTools} while closing the tool.
+ * Called by {@link #mw.ImageEditor.cleanUpTools} while closing the tool.
  * Could also be called within the tool to cancel the action and clean
  * the interface elements.
  *
  * @abstract
  * @method destroyInterface
  */
-ImageTool.prototype.destroyInterface = null;
+mw.ImageTool.prototype.destroyInterface = null;
 
-window.ImageTool = ImageTool;
-
-}( jQuery, OO ) );
+}( jQuery, OO, mediaWiki) );
