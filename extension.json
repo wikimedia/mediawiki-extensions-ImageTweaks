@@ -70,6 +70,7 @@
 				"mediawiki.Upload",
 				"oojs-ui",
 				"caman",
+				"caman-flip",
 				"imagetool",
 				"exifrestorer",
 				"jquery.ui.resizable",
@@ -79,8 +80,14 @@
 
 		"caman": {
 			"scripts": [
-				"resources/lib/imageeditor/caman.full.js",
-				"resources/lib/imageeditor/caman.flip.js"
+				"node_modules/caman-dist-only/dist/caman.full.js",
+				"resources/src/caman.fix.js"
+			]
+		},
+
+		"caman-flip": {
+			"scripts": [
+				"resources/src/caman.flip.js"
 			]
 		},
 
