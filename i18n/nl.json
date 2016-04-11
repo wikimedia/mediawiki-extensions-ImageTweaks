@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sjoerddebruin"
+		]
+	},
+	"imagetweaks-editor-open": "Deze afbeelding snel bewerken",
+	"imagetweaks-editor-save": "Opslaan",
+	"imagetweaks-editor-undo": "Ongedaan maken",
+	"imagetweaks-editor-rotate-cc": "Tegen de klok in draaien",
+	"imagetweaks-editor-rotate-c": "Met de klok mee draaien",
+	"imagetweaks-editor-flip-v": "Verticaal spiegelen",
+	"imagetweaks-editor-flip-h": "Horizontaal spiegelen",
+	"imagetweaks-editor-crop": "Bijsnijden",
+	"imagetweaks-editor-crop-button": "Bijsnijden",
+	"imagetweaks-editor-cancel": "Annuleren"
+}

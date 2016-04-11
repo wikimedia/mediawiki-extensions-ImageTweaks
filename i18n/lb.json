@@ -7,8 +7,10 @@
 	"imagetweaks-editor-open": "Dëst Bild séier änneren",
 	"imagetweaks-editor-save": "Späicheren",
 	"imagetweaks-editor-undo": "Réckgängeg maachen",
+	"imagetweaks-editor-redo": "Widderhuelen",
 	"imagetweaks-editor-flip-v": "Vertikal dréinen",
 	"imagetweaks-editor-flip-h": "Horizontal dréinen",
 	"imagetweaks-editor-crop": "Ofschneiden",
+	"imagetweaks-editor-crop-button": "Ofschneiden",
 	"imagetweaks-editor-cancel": "Ofbriechen"
 }
