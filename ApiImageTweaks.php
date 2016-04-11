@@ -40,29 +40,38 @@ class ApiImageTweaks extends ApiBase {
 		$upload = new UploadFromLocalFile;
 		$upload->initializeFromParams( $params, $thumborURL );
 		$upload->fetchFile();
-		$status = $upload->performUpload( $params['comment'], $params['text'], false, $this->getUser() );
 
-		if ( !$status->isGood() ) {
-			$error = $status->getErrorsArray();
+		$result = array();
 
-			if ( count( $error ) == 1 && $error[0][0] == 'async' ) {
-				// The upload can not be performed right now, because the user
-				// requested so
-				$result = array(
-					'result' => 'Queued',
-					'statuskey' => $error[0][1],
-				);
+		if ( !$params['stash'] ) {
+			$status = $upload->performUpload( $params['comment'], $params['text'], false, $this->getUser() );
+
+			if ( !$status->isGood() ) {
+				$error = $status->getErrorsArray();
+				ApiResult::setIndexedTagName( $error, 'error' );
+				$this->dieUsage( 'An internal error occurred', 'internal-error', 0, $error );
+			} else {
+				$file = $upload->getLocalFile();
+
+				$result[ 'result' ] = 'Success';
+				$result[ 'filename' ] = $file->getName();
 			}
-
-			ApiResult::setIndexedTagName( $error, 'error' );
-			$this->dieUsage( 'An internal error occurred', 'internal-error', 0, $error );
 		} else {
-			$file = $upload->getLocalFile();
+			try {
+				$stashFile = $upload->stashFile( $this->getUser() );
 
-			$result = array(
-				'result' => 'Success',
-				'filename' => $file->getName(),
-			);
+				if ( !$stashFile ) {
+					throw new MWException( 'Invalid stashed file' );
+				}
+
+				$result[ 'result' ] = 'Stashed';
+				$result[ 'filekey' ] = $stashFile->getFileKey();
+			} catch ( Exception $e ) {
+				$className = get_class( $e );
+				$message = 'Stashing temporary file failed: ' . $className . ' ' . $e->getMessage();
+				wfDebug( __METHOD__ . ' ' . $message . "\n" );
+				throw new $className( $message );
+			}
 		}
 
 		$this->getResult()->addValue( null, $this->getModuleName(), $result );
@@ -88,6 +97,10 @@ class ApiImageTweaks extends ApiBase {
 
 			'filters' => array(
 				ApiBase::PARAM_TYPE => 'string',
+			),
+
+			'stash' => array(
+				ApiBase::PARAM_TYPE => 'boolean',
 			),
 		);
 	}
