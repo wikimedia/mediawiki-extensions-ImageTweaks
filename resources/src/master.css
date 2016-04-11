@@ -36,39 +36,29 @@ html, body {
 }
 
 /* Icons */
-.oo-ui-icon-undo {
-	/* @embed */
-	background-image: url( ../lib/material-icons/undo.svg );
-}
-
-.oo-ui-icon-redo {
-	/* @embed */
-	background-image: url( ../lib/material-icons/redo.svg );
-}
-
 .oo-ui-icon-rotate-clockwise {
 	/* @embed */
-	background-image: url( ../lib/material-icons/rotate-clockwise.svg );
+	background-image: url( icons/rotate-clockwise.svg );
 }
 
 .oo-ui-icon-rotate-counter-clockwise {
 	/* @embed */
-	background-image: url( ../lib/material-icons/rotate-counter-clockwise.svg );
+	background-image: url( icons/rotate-counter-clockwise.svg );
 }
 
 .oo-ui-icon-flip-vertical {
 	/* @embed */
-	background-image: url( ../lib/material-icons/flip-vertical.svg );
+	background-image: url( icons/flip-vertical.svg );
 }
 
 .oo-ui-icon-flip-horizontal {
 	/* @embed */
-	background-image: url( ../lib/material-icons/flip-horizontal.svg );
+	background-image: url( icons/flip-horizontal.svg );
 }
 
 .oo-ui-icon-crop {
 	/* @embed */
-	background-image: url( ../lib/material-icons/crop.svg );
+	background-image: url( icons/crop.svg );
 }
 
 
