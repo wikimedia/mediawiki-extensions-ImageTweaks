@@ -86,10 +86,7 @@ var ImageTool;
  *     		this.deferred.resolve( this.doAction( image, action ) );
  *     	}.bind( this ) );
  *
- *     	this.cancel.on( 'click', function () {
- *     		// Reject the deferred if tool couldn't complete the action
- *     		this.deferred.reject();
- *     	}.bind( this ) );
+ *     	this.cancel.on( 'click', this.destroyInterface.bind( this ) );
  *
  *     	controls = new OO.ui.HorizontalLayout( {
  *     		items: [
@@ -103,6 +100,13 @@ var ImageTool;
  *     	} );
  *     	panel.$element.append( controls.$element );
  *     };
+ *
+ *     crop.destroyInterface = function () {
+ *     	this.$cover.remove();
+ *     	// Reject the deferred if tool couldn't complete the action
+ *     	this.deferred.reject();
+ *     };
+ *
  *
  *     crop.doAction = function ( image, action ) {
  *     	// Save old image data before cropping, will need this for undo
@@ -207,6 +211,16 @@ ImageTool.prototype.getAction = function ( image, panel ) {
  * @param {OO.ui.PanelLayout} panel Panel object to render additional UI for the tool
  */
 ImageTool.prototype.setupInterface = null;
+
+/**
+ * Called by {@link #ImageEditor.cleanUpTools} while closing the tool.
+ * Could also be called within the tool to cancel the action and clean
+ * the interface elements.
+ *
+ * @abstract
+ * @method destroyInterface
+ */
+ImageTool.prototype.destroyInterface = null;
 
 window.ImageTool = ImageTool;
 
