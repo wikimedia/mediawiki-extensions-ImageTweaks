@@ -124,11 +124,9 @@ class UploadFromRequest extends UploadBase {
 		$this->mRequest->setCallback( array( $this, 'saveTempFileChunk' ) );
 		$status = $this->mRequest->execute();
 
-		if ( $this->mTmpHandle ) {
-			// File got written ok...
-			fclose( $this->mTmpHandle );
-			$this->mTmpHandle = null;
-		} else {
+		fclose( $this->mTmpHandle );
+		$this->mTmpHandle = null;
+		if ( !$this->mFileSize ) {
 			// We encountered a write error during the download...
 			return Status::newFatal( 'tmp-write-error' );
 		}

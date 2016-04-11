@@ -39,7 +39,11 @@ class ApiImageTweaks extends ApiBase {
 		$params = $this->extractRequestParams();
 		$upload = new UploadFromLocalFile;
 		$upload->initializeFromParams( $params, $thumborURL );
-		$upload->fetchFile();
+
+		$status = $upload->fetchFile();
+		if ( !$status->isOK() ) {
+			$this->dieStatus( $status );
+		}
 
 		$result = array();
 
