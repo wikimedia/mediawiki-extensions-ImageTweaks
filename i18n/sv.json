@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"imagetweaks-desc": "API och specialsidor för att redigera bilder i wikin",
+	"imagetweaks-beta-preference-label": "Bildredigering i wikin",
+	"imagetweaks-beta-preference-desc": "Vänd, rotera eller beskär bilder som redan finns på denna wiki i din webbläsare.",
+	"imagetweaks-editor-open": "Redigera denna bild snabbt",
+	"imagetweaks-editor-save": "Spara",
+	"imagetweaks-editor-undo": "Ångra",
+	"imagetweaks-editor-redo": "Gör om",
+	"imagetweaks-editor-rotate-cc": "Rotera moturs",
+	"imagetweaks-editor-rotate-c": "Rotera medurs",
+	"imagetweaks-editor-flip-v": "Vänd vertikalt",
+	"imagetweaks-editor-flip-h": "Vänd horisontellt",
+	"imagetweaks-editor-crop": "Beskär",
+	"imagetweaks-editor-crop-button": "Beskär",
+	"imagetweaks-editor-cancel": "Avbryt"
+}

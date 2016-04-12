@@ -4,8 +4,8 @@
 			"KSFT"
 		]
 	},
-	"imagetweaks-editor-undo": ".i xrugau",
-	"imagetweaks-editor-redo": ".i krefu",
-	"imagetweaks-editor-rotate-cc": ".i zunle carna",
-	"imagetweaks-editor-crop-button": ".i pixra vimcu"
+	"imagetweaks-editor-undo": "i xrugau",
+	"imagetweaks-editor-redo": "i krefu",
+	"imagetweaks-editor-rotate-cc": "i zunle carna",
+	"imagetweaks-editor-crop-button": "i pixra vimcu"
 }

@@ -7,6 +7,11 @@
 	"imagetweaks-editor-save": "Zapisz",
 	"imagetweaks-editor-undo": "Cofnij",
 	"imagetweaks-editor-redo": "Ponów",
+	"imagetweaks-editor-rotate-cc": "Obróć w lewo",
 	"imagetweaks-editor-rotate-c": "Obróć w prawo",
+	"imagetweaks-editor-flip-v": "Odbij w pionie",
+	"imagetweaks-editor-flip-h": "Odbij w poziomie",
+	"imagetweaks-editor-crop": "Przytnij",
+	"imagetweaks-editor-crop-button": "Przytnij",
 	"imagetweaks-editor-cancel": "Anuluj"
 }
