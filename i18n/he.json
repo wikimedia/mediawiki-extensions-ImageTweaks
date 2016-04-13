@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"imagetweaks-editor-open": "עריכת תמונה זו במהירות",
+	"imagetweaks-editor-save": "שמירה",
+	"imagetweaks-editor-undo": "ביטול",
+	"imagetweaks-editor-redo": "חזרה על הפעולה",
+	"imagetweaks-editor-rotate-cc": "סיבוב נגד כיוון השעון",
+	"imagetweaks-editor-rotate-c": "סיבוב בכיוון השעון",
+	"imagetweaks-editor-crop": "לחתוך",
+	"imagetweaks-editor-crop-button": "לחתוך",
+	"imagetweaks-editor-cancel": "ביטול"
+}

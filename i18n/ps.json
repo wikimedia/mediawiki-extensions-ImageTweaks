@@ -4,5 +4,8 @@
 			"Ahmed-Najib-Biabani-Ibrahimkhel"
 		]
 	},
-	"imagetweaks-editor-undo": "ناکړل"
+	"imagetweaks-editor-save": "خوندي کول",
+	"imagetweaks-editor-undo": "ناکړل",
+	"imagetweaks-editor-redo": "بياکړل",
+	"imagetweaks-editor-cancel": "ناگارل"
 }
