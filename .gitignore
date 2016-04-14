@@ -1,3 +1,5 @@
 node_modules/*
 !node_modules/caman-dist-only
 docs
+vendor
+composer.lock
