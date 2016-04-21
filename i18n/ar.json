@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"Maroen1990"
 		]
 	},
+	"imagetweaks-editor-save": "حفظ",
+	"imagetweaks-editor-undo": "تراجع",
 	"imagetweaks-editor-cancel": "ألغ"
 }
