@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Silvonen"
+		]
+	},
+	"imagetweaks-editor-save": "Tallenna",
+	"imagetweaks-editor-undo": "Kumoa",
+	"imagetweaks-editor-rotate-cc": "Kierrä vastapäivään",
+	"imagetweaks-editor-rotate-c": "Kierrä myötäpäivään",
+	"imagetweaks-editor-flip-v": "Käännä pystysuunnassa",
+	"imagetweaks-editor-flip-h": "Käännä vaakasuunnassa",
+	"imagetweaks-editor-crop": "Rajaa",
+	"imagetweaks-editor-crop-button": "Rajaa"
+}
