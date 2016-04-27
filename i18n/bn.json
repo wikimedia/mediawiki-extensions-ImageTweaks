@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aftabuzzaman"
+			"Aftabuzzaman",
+			"এম আবু সাঈদ"
 		]
 	},
 	"imagetweaks-desc": "উইকিতে চিত্র সম্পাদনার জন্য API এবং বিশেষ পাতাসমূহ",
@@ -14,7 +15,7 @@
 	"imagetweaks-editor-rotate-cc": "ঘড়ির কাঁটার বিপরীতে ঘোরান",
 	"imagetweaks-editor-rotate-c": "ঘড়ির কাঁটার দিকে ঘোরান",
 	"imagetweaks-editor-flip-v": "উল্লম্বভাবে উল্টান",
-	"imagetweaks-editor-flip-h": "অনুভূমিকভাবে উল্টান",
+	"imagetweaks-editor-flip-h": "আনুভূমিকভাবে উল্টান",
 	"imagetweaks-editor-crop": "কাটুন",
 	"imagetweaks-editor-crop-button": "কাটুন",
 	"imagetweaks-editor-cancel": "বাতিল"
