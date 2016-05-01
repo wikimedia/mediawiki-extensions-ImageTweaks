@@ -4,8 +4,15 @@
 			"Ahmed-Najib-Biabani-Ibrahimkhel"
 		]
 	},
+	"imagetweaks-desc": "ان-ويکي انځورونو سمونگر لپاره د API او ځانگړي مخونه",
+	"imagetweaks-beta-preference-label": "ان-ويکي انځور سمونگر",
+	"imagetweaks-editor-open": "دا انځور په چټکه سمول",
 	"imagetweaks-editor-save": "خوندي کول",
 	"imagetweaks-editor-undo": "ناکړل",
 	"imagetweaks-editor-redo": "بياکړل",
+	"imagetweaks-editor-rotate-cc": "کيڼ گرځ",
+	"imagetweaks-editor-rotate-c": "ښي گرځ",
+	"imagetweaks-editor-flip-v": "چورليځه اړونه",
+	"imagetweaks-editor-flip-h": "څنډيزه اړونه",
 	"imagetweaks-editor-cancel": "ناگارل"
 }
