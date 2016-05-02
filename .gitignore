@@ -1,5 +1,5 @@
 node_modules/*
-!node_modules/caman-dist-only
+!node_modules/caman-dist-only/dist/caman.full.min.js
 docs
 vendor
 composer.lock

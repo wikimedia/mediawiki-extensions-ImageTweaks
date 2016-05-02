@@ -80,7 +80,7 @@
 
 		"caman": {
 			"scripts": [
-				"node_modules/caman-dist-only/dist/caman.full.js",
+				"node_modules/caman-dist-only/dist/caman.full.min.js",
 				"resources/src/caman.fix.js"
 			]
 		},
