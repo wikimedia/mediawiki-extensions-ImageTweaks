@@ -2,7 +2,7 @@
 	// Enforcing
 	"bitwise": true,
 	"eqeqeq": true,
-	"esversion": 3,
+	"esversion": 5,
 	"freeze": true,
 	"futurehostile": true,
 	"latedef": "nofunc",

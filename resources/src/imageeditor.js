@@ -166,7 +166,7 @@ mw.ImageEditor.prototype.close = function () {
  * Cleans up interface loaded by interactive tools
  */
 mw.ImageEditor.prototype.cleanUpTools = function () {
-	$.each( this.tools, function( name, tool ) {
+	$.each( this.tools, function ( name, tool ) {
 		if (
 			tool.destroyInterface !== null &&
 			tool.destroyInterface !== undefined
@@ -439,7 +439,6 @@ mw.ImageEditor.prototype.setupTool = function ( tool ) {
 			then = new Date();
 			action = tool.doAction( editor.image );
 			now = new Date();
-			console.log( tool.name, 'took', now - then, 'ms' );
 			editor.addAction( tool.name, action );
 		}
 
@@ -572,7 +571,6 @@ mw.ImageEditor.prototype.registerCoreTools = function () {
 			then = new Date();
 			this.doAction( image, action );
 			now = new Date();
-			console.log( 'crop took', now - then, 'ms' );
 
 			this.deferred.resolve( action );
 

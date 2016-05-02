@@ -220,4 +220,4 @@ mw.ImageTool.prototype.setupInterface = null;
  */
 mw.ImageTool.prototype.destroyInterface = null;
 
-}( jQuery, OO, mediaWiki) );
+}( jQuery, OO, mediaWiki ) );
