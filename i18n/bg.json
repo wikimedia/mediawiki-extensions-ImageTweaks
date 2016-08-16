@@ -4,5 +4,6 @@
 			"StanProg"
 		]
 	},
-	"imagetweaks-editor-save": "Съхраняване"
+	"imagetweaks-editor-save": "Съхраняване",
+	"imagetweaks-editor-redo": "Повторение"
 }
