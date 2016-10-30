@@ -2,19 +2,21 @@
 	"@metadata": {
 		"authors": [
 			"Diniscoelho",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Hamilton Abreu"
 		]
 	},
-	"imagetweaks-beta-preference-label": "Edição de imagem na wiki",
+	"imagetweaks-desc": "API e páginas especiais para edição de imagens na wiki",
+	"imagetweaks-beta-preference-label": "Edição de imagens na wiki",
 	"imagetweaks-beta-preference-desc": "Gire, rode ou corte imagens que estejam nesta wiki de forma rápida, através do seu navegador.",
 	"imagetweaks-editor-open": "Editar esta imagem rapidamente",
 	"imagetweaks-editor-save": "Gravar",
 	"imagetweaks-editor-undo": "Desfazer",
 	"imagetweaks-editor-redo": "Refazer",
 	"imagetweaks-editor-rotate-cc": "Girar no sentido anti-horário",
-	"imagetweaks-editor-rotate-c": "Girar em sentido horário",
-	"imagetweaks-editor-flip-v": "Girar verticalmente",
-	"imagetweaks-editor-flip-h": "Girar horizontalmente",
+	"imagetweaks-editor-rotate-c": "Girar no sentido horário",
+	"imagetweaks-editor-flip-v": "Inverter na vertical",
+	"imagetweaks-editor-flip-h": "Inverter na horizontal",
 	"imagetweaks-editor-crop": "Cortar",
 	"imagetweaks-editor-crop-button": "Cortar",
 	"imagetweaks-editor-cancel": "Cancelar"
