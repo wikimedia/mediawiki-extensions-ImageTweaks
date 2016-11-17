@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"imagetweaks-desc": "API y páxines especiales pa la edición d'imaxes na wiki",
+	"imagetweaks-beta-preference-label": "Edición d'imaxes na wiki",
+	"imagetweaks-beta-preference-desc": "Voltiar, xirar o retayar rápido imaxes que yá tán nesta wiki, dende'l to navegador.",
+	"imagetweaks-editor-open": "Editar esta imaxe rápidamente",
+	"imagetweaks-editor-save": "Guardar",
+	"imagetweaks-editor-undo": "Desfacer",
+	"imagetweaks-editor-redo": "Refacer",
+	"imagetweaks-editor-rotate-cc": "Xirar a la izquierda",
+	"imagetweaks-editor-rotate-c": "Xirar a la derecha",
+	"imagetweaks-editor-flip-v": "Voltiar en vertical",
+	"imagetweaks-editor-flip-h": "Voltiar n'horizontal",
+	"imagetweaks-editor-crop": "Retayar",
+	"imagetweaks-editor-crop-button": "Retayar",
+	"imagetweaks-editor-cancel": "Encaboxar"
+}
