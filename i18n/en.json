@@ -17,5 +17,12 @@
 	"imagetweaks-editor-flip-h": "Flip horizontally",
 	"imagetweaks-editor-crop": "Crop",
 	"imagetweaks-editor-crop-button": "Crop",
-	"imagetweaks-editor-cancel": "Cancel"
+	"imagetweaks-editor-cancel": "Cancel",
+	"apihelp-imagetweaks-description": "Create a derivative image based on an image already on the wiki. Note: There is a strong likelihood that you will go over the URL length limit with a request to this API module, so you should use a POST request instead.",
+	"apihelp-imagetweaks-param-text": "Initial page text for new files.",
+	"apihelp-imagetweaks-param-comment": "Upload comment. Also used as the initial page text for new files if <var>$1text</var> is not specified.",
+	"apihelp-imagetweaks-param-file": "File contents.",
+	"apihelp-imagetweaks-param-destfile": "Target file.",
+	"apihelp-imagetweaks-param-filters": "What filters to add to the image.",
+	"apihelp-imagetweaks-param-stash": "If set, the server will stash the file temporarily instead of adding it to the repository."
 }

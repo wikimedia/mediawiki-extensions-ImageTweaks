@@ -108,13 +108,4 @@ class ApiImageTweaks extends ApiBase {
 			),
 		);
 	}
-
-	public function getDescription() {
-		return 'Create a derivative image based on an image already on the wiki. Note: There is a strong likelihood that you will go over the URL length limit with a request to this API module, so you should use a POST request instead.';
-	}
-
-	public function getExamples() {
-		return array(
-		);
-	}
 }
