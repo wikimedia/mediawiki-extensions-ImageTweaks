@@ -17,5 +17,7 @@
 	"imagetweaks-editor-flip-h": "Capovolgi orizzontalmente",
 	"imagetweaks-editor-crop": "Ritaglia",
 	"imagetweaks-editor-crop-button": "Ritaglia",
-	"imagetweaks-editor-cancel": "Annulla"
+	"imagetweaks-editor-cancel": "Annulla",
+	"apihelp-imagetweaks-param-file": "Contenuto del file.",
+	"apihelp-imagetweaks-param-destfile": "File di destinazione."
 }

@@ -17,5 +17,12 @@
 	"imagetweaks-editor-flip-h": "Преврти по хоризонтала",
 	"imagetweaks-editor-crop": "Скастри",
 	"imagetweaks-editor-crop-button": "Скастри",
-	"imagetweaks-editor-cancel": "Откажи"
+	"imagetweaks-editor-cancel": "Откажи",
+	"apihelp-imagetweaks-description": "Направете изведена слика на основа на постоечка на викито. Напомена: Многу е веројатно дека ќе ја надминете допуштената должина на URL-то ако одите со барање преку извршничкиот модул, па затоа ве советуваме да направите барање со POST.",
+	"apihelp-imagetweaks-param-text": "Првичен текст на страницата за нови податотеки.",
+	"apihelp-imagetweaks-param-comment": "Коментар при подигање. Се користи и како првичен текст на страницата за нови податотеки ако не е укажано <var>$1text</var>.",
+	"apihelp-imagetweaks-param-file": "Содржина на податотеката.",
+	"apihelp-imagetweaks-param-destfile": "Целна податотека",
+	"apihelp-imagetweaks-param-filters": "Кои филтри да ѝ се додадат на сликата.",
+	"apihelp-imagetweaks-param-stash": "Ако е зададено, опслужувачот ќе ја стави податотеката на привремено чување наместо да го додаде во складиштето."
 }

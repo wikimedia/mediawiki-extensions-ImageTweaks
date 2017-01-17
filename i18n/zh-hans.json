@@ -17,5 +17,11 @@
 	"imagetweaks-editor-flip-h": "水平翻转",
 	"imagetweaks-editor-crop": "修补",
 	"imagetweaks-editor-crop-button": "修补",
-	"imagetweaks-editor-cancel": "取消"
+	"imagetweaks-editor-cancel": "取消",
+	"apihelp-imagetweaks-param-text": "用于新文件的初始页面文本。",
+	"apihelp-imagetweaks-param-comment": "上传注释。如果没有指定<var>$1text</var>，那么它也被用于新文件的初始页面文本。",
+	"apihelp-imagetweaks-param-file": "文件内容。",
+	"apihelp-imagetweaks-param-destfile": "目标文件。",
+	"apihelp-imagetweaks-param-filters": "要添加到图片中的过滤器。",
+	"apihelp-imagetweaks-param-stash": "如果设置，服务器将临时藏匿文件而不是加入存储库。"
 }

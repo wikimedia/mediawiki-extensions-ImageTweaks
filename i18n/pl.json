@@ -13,5 +13,7 @@
 	"imagetweaks-editor-flip-h": "Odbij w poziomie",
 	"imagetweaks-editor-crop": "Przytnij",
 	"imagetweaks-editor-crop-button": "Przytnij",
-	"imagetweaks-editor-cancel": "Anuluj"
+	"imagetweaks-editor-cancel": "Anuluj",
+	"apihelp-imagetweaks-param-file": "Zawartość pliku.",
+	"apihelp-imagetweaks-param-destfile": "Plik docelowy."
 }

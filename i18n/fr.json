@@ -18,5 +18,12 @@
 	"imagetweaks-editor-flip-h": "Retourner horizontalement",
 	"imagetweaks-editor-crop": "Retailler",
 	"imagetweaks-editor-crop-button": "Retailler",
-	"imagetweaks-editor-cancel": "Annuler"
+	"imagetweaks-editor-cancel": "Annuler",
+	"apihelp-imagetweaks-description": "Créer une image dérivée basée sur une image déjà sur le wiki. Note : Il y a une forte probabilité que vous dépasserez la limite de longueur d’URL avec une requête à ce module de l’API, donc vous devriez plutôt utiliser une requête POST à la place.",
+	"apihelp-imagetweaks-param-text": "Texte initial de la page pour les nouveaux fichiers.",
+	"apihelp-imagetweaks-param-comment": "Télécharger un commentaire. Utilisé aussi comme texte initial de la page pour les nouveaux fichiers si <var>$1text</var> n’est pas spécifié.",
+	"apihelp-imagetweaks-param-file": "Contenu du fichier.",
+	"apihelp-imagetweaks-param-destfile": "Fichier cible.",
+	"apihelp-imagetweaks-param-filters": "Quels filtres ajouter à l’image.",
+	"apihelp-imagetweaks-param-stash": "Si positionné, le serveur stockera temporairement le fichier au lieu de l’ajouter au dépôt."
 }
