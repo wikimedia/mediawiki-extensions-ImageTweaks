@@ -12,5 +12,6 @@
 	"imagetweaks-editor-flip-h": "Horizontal dréinen",
 	"imagetweaks-editor-crop": "Ofschneiden",
 	"imagetweaks-editor-crop-button": "Ofschneiden",
-	"imagetweaks-editor-cancel": "Ofbriechen"
+	"imagetweaks-editor-cancel": "Ofbriechen",
+	"apihelp-imagetweaks-param-destfile": "Zil-Fichier."
 }
