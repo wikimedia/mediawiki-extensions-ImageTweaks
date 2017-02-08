@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Silvonen"
+			"Silvonen",
+			"Pyscowicz"
 		]
 	},
 	"imagetweaks-editor-save": "Tallenna",
@@ -11,5 +12,6 @@
 	"imagetweaks-editor-flip-v": "Käännä pystysuunnassa",
 	"imagetweaks-editor-flip-h": "Käännä vaakasuunnassa",
 	"imagetweaks-editor-crop": "Rajaa",
-	"imagetweaks-editor-crop-button": "Rajaa"
+	"imagetweaks-editor-crop-button": "Rajaa",
+	"apihelp-imagetweaks-param-destfile": "Kohdetiedosto."
 }
