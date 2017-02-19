@@ -17,5 +17,12 @@
 	"imagetweaks-editor-flip-h": "Voltiar n'horizontal",
 	"imagetweaks-editor-crop": "Retayar",
 	"imagetweaks-editor-crop-button": "Retayar",
-	"imagetweaks-editor-cancel": "Encaboxar"
+	"imagetweaks-editor-cancel": "Encaboxar",
+	"apihelp-imagetweaks-description": "Crear una imaxe derivada basada n'una imaxe que yá ta na wiki. Nota: Ye probable enforma que pases la llende de llargor d'URL con una solicitú a esti módulu de la API, de mou que meyor tendríes d'usar una solicitú POST.",
+	"apihelp-imagetweaks-param-text": "Testu d'aniciu de la páxina de ficheros nuevos.",
+	"apihelp-imagetweaks-param-comment": "Comentariu de xuba. Úsase tamién como testu d'aniciu de la páxina de ficheros nuevos si nun s'especifica <var>$1text</var>.",
+	"apihelp-imagetweaks-param-file": "Conteníu del ficheru.",
+	"apihelp-imagetweaks-param-destfile": "Ficheru destín.",
+	"apihelp-imagetweaks-param-filters": "Qué filtros hai qu'amestar a la imaxe.",
+	"apihelp-imagetweaks-param-stash": "Si se configura, el sirvidor almacenará temporalmente'l ficheru en llugar d'amestalu al repositoriu."
 }
