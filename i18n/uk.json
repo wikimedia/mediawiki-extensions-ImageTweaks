@@ -17,5 +17,12 @@
 	"imagetweaks-editor-flip-h": "Віддзеркалити горизонтально",
 	"imagetweaks-editor-crop": "Обрізати",
 	"imagetweaks-editor-crop-button": "Обрізати",
-	"imagetweaks-editor-cancel": "Скасувати"
+	"imagetweaks-editor-cancel": "Скасувати",
+	"apihelp-imagetweaks-description": "Створити похідне зображення на основі зображення, яке вже перебуває у вікі. Примітка: є значна ймовірність, що Ви перевищите допустиму довжину URL-адреси при поданні запиту до цього модуля API, тож Вам слід натомість використати запит POST.",
+	"apihelp-imagetweaks-param-text": "Початковий текст сторінки для нових файлів.",
+	"apihelp-imagetweaks-param-comment": "Коментар до завантаження. Також використовується як початковий текст сторінки для нових файлів, якщо не вказано <var>$1text</var>.",
+	"apihelp-imagetweaks-param-file": "Вміст файлу.",
+	"apihelp-imagetweaks-param-destfile": "Цільовий файл.",
+	"apihelp-imagetweaks-param-filters": "Які фільтри додати до зображення.",
+	"apihelp-imagetweaks-param-stash": "Якщо встановлено, сервер тимчасово помістить файл у сховок замість додавання його до сховища."
 }
