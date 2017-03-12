@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ykhwong"
+			"Ykhwong",
+			"Jerrykim306"
 		]
 	},
+	"imagetweaks-editor-undo": "되돌리기",
 	"apihelp-imagetweaks-param-file": "파일의 내용입니다."
 }
