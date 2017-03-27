@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elisardojm"
+			"Elisardojm",
+			"Banjo"
 		]
 	},
 	"imagetweaks-desc": "API e páxinas especiais para a edición de imaxes na wiki",
@@ -17,5 +18,6 @@
 	"imagetweaks-editor-flip-h": "Voltear horizontalmente",
 	"imagetweaks-editor-crop": "Recortar",
 	"imagetweaks-editor-crop-button": "Recortar",
-	"imagetweaks-editor-cancel": "Cancelar"
+	"imagetweaks-editor-cancel": "Cancelar",
+	"apihelp-imagetweaks-param-file": "Contido do ficheiro."
 }
