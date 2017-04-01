@@ -17,5 +17,12 @@
 	"imagetweaks-editor-flip-h": "Vänd horisontellt",
 	"imagetweaks-editor-crop": "Beskär",
 	"imagetweaks-editor-crop-button": "Beskär",
-	"imagetweaks-editor-cancel": "Avbryt"
+	"imagetweaks-editor-cancel": "Avbryt",
+	"apihelp-imagetweaks-description": "Skapa en deriverad bild baserad på en befintlig bild på wikin. OBS: Det finns en stor risk att du kommer att gå över webbadressens längdgräns med en begäran till denna API-modul, så du måste använda en POST-begäran istället.",
+	"apihelp-imagetweaks-param-text": "Ursprunglig sidtext för nya filer.",
+	"apihelp-imagetweaks-param-comment": "Uppladdningskommentar. Används även som den ursprungliga sidtexten för nya filer om <var>$1text</var> inte specificeras.",
+	"apihelp-imagetweaks-param-file": "Filens innehåll.",
+	"apihelp-imagetweaks-param-destfile": "Målfil.",
+	"apihelp-imagetweaks-param-filters": "Vilka filter att lägga till i bilden.",
+	"apihelp-imagetweaks-param-stash": "Om angiven, kommer servern att temporärt lagra filen istället för att lägga till den i centralförvaret."
 }
