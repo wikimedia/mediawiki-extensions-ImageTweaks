@@ -19,5 +19,9 @@
 	"imagetweaks-editor-crop": "Recortar",
 	"imagetweaks-editor-crop-button": "Recortar",
 	"imagetweaks-editor-cancel": "Cancelar",
-	"apihelp-imagetweaks-param-file": "Contido do ficheiro."
+	"apihelp-imagetweaks-param-text": "Texto inicial da páxina para os novos ficheiros.",
+	"apihelp-imagetweaks-param-comment": "Subir comentario. Tamén usado como texto inicial da páxina para os novos ficheiros se <var>$1text</var> non está especificada.",
+	"apihelp-imagetweaks-param-file": "Contido do ficheiro.",
+	"apihelp-imagetweaks-param-filters": "Que filtros engadir á imaxe.",
+	"apihelp-imagetweaks-param-stash": "Se está indicado, o servidor almacenará o ficheiro temporalmente no canto de engadilo ó repositorio."
 }
