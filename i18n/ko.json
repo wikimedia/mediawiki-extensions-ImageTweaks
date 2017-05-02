@@ -6,5 +6,7 @@
 		]
 	},
 	"imagetweaks-editor-undo": "실행 취소",
+	"apihelp-imagetweaks-param-text": "새로운 파일들에 대한 초기 문서 텍스트.",
+	"apihelp-imagetweaks-param-comment": "업로드 주석입니다. 또, <var>$1text</var>가 지정되지 않은 경우 새로운 파일들의 초기 페이지 텍스트로 사용됩니다.",
 	"apihelp-imagetweaks-param-file": "파일의 내용입니다."
 }
