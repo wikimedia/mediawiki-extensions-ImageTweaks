@@ -19,5 +19,14 @@
 	"imagetweaks-editor-flip-h": "Inverter na horizontal",
 	"imagetweaks-editor-crop": "Cortar",
 	"imagetweaks-editor-crop-button": "Cortar",
-	"imagetweaks-editor-cancel": "Cancelar"
+	"imagetweaks-editor-cancel": "Cancelar",
+	"apihelp-imagetweaks-description": "Criar uma imagem derivada com base numa imagem que já está na wiki.",
+	"apihelp-imagetweaks-extended-description": "Nota: é provável que vá exceder o comprimento limite do URL ao fazer pedidos a este módulo da API, por isso deve usar um pedido POST.",
+	"apihelp-imagetweaks-summary": "Criar uma imagem derivada com base numa imagem que já está na wiki. Nota: é provável que vá exceder o comprimento limite do URL ao fazer pedidos a este módulo da API, por isso deve usar um pedido POST.",
+	"apihelp-imagetweaks-param-text": "Texto inicial da página, para ficheiros novos.",
+	"apihelp-imagetweaks-param-comment": "Comentário do carregamento. Também é usado como texto inicial da página para ficheiros novos, se <var>$1text</var> não for especificado.",
+	"apihelp-imagetweaks-param-file": "Conteúdo do ficheiro.",
+	"apihelp-imagetweaks-param-destfile": "Nome de destino do ficheiro.",
+	"apihelp-imagetweaks-param-filters": "Filtros a serem adicionados à imagem.",
+	"apihelp-imagetweaks-param-stash": "Se definido, o servidor irá colocar o ficheiro temporariamente na área de ficheiros escondidos, em vez de adicioná-lo ao repositório."
 }
