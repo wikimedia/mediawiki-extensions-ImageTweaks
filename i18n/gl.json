@@ -19,6 +19,7 @@
 	"imagetweaks-editor-crop": "Recortar",
 	"imagetweaks-editor-crop-button": "Recortar",
 	"imagetweaks-editor-cancel": "Cancelar",
+	"apihelp-imagetweaks-description": "Crear unha imaxe derivada dunha imaxe que xa está na wiki.",
 	"apihelp-imagetweaks-param-text": "Texto inicial da páxina para os novos ficheiros.",
 	"apihelp-imagetweaks-param-comment": "Subir comentario. Tamén usado como texto inicial da páxina para os novos ficheiros se <var>$1text</var> non está especificada.",
 	"apihelp-imagetweaks-param-file": "Contido do ficheiro.",
