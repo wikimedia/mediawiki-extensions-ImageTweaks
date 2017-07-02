@@ -20,7 +20,7 @@
 	"imagetweaks-editor-crop": "Retailler",
 	"imagetweaks-editor-crop-button": "Retailler",
 	"imagetweaks-editor-cancel": "Annuler",
-	"apihelp-imagetweaks-description": "Créer une image dérivée basée sur une image déjà sur le wiki. Note : Il y a une forte probabilité que vous dépasserez la limite de longueur d’URL avec une requête à ce module de l’API, donc vous devriez plutôt utiliser une requête POST à la place.",
+	"apihelp-imagetweaks-description": "Créer une image dérivée basée sur une image déjà sur le wiki.",
 	"apihelp-imagetweaks-param-text": "Texte initial de la page pour les nouveaux fichiers.",
 	"apihelp-imagetweaks-param-comment": "Téléverser un commentaire. Utilisé aussi comme texte initial de la page pour les nouveaux fichiers si <var>$1text</var> n’est pas spécifié.",
 	"apihelp-imagetweaks-param-file": "Contenu du fichier.",
