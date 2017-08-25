@@ -132,7 +132,7 @@ class UploadFromRequest extends UploadBase {
 
 		wfDebugLog( 'fileupload', $status );
 		if ( $status->isOk() ) {
-			wfDebugLog( 'fileupload', 'Download from request completed successfuly.' );
+			wfDebugLog( 'fileupload', 'Download from request completed successfully.' );
 		} else {
 			wfDebugLog(
 				'fileupload',
