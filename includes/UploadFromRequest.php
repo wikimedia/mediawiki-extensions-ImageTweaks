@@ -106,7 +106,6 @@ class UploadFromRequest extends UploadBase {
 	 * @return Status
 	 */
 	public function fetchFile() {
-		global $wgCopyUploadProxy, $wgCopyUploadTimeout;
 		if ( $this->mTempPath === false ) {
 			return Status::newFatal( 'tmp-create-error' );
 		}
