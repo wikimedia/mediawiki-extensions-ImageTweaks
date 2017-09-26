@@ -209,7 +209,7 @@ mw.ImageEditor.prototype.setupToolbar = function () {
 
 	this.saveButton = new OO.ui.ButtonWidget( {
 		label: mw.message( 'imagetweaks-editor-save' ).text(),
-		flags: [ 'constructive', 'primary' ]
+		flags: [ 'progressive', 'primary' ]
 	} ).on( 'click', function () {
 		editor.emit( 'save' );
 	} );
