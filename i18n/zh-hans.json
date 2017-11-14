@@ -19,6 +19,8 @@
 	"imagetweaks-editor-crop-button": "修补",
 	"imagetweaks-editor-cancel": "取消",
 	"apihelp-imagetweaks-description": "基于wiki上现存图片，创建衍生图片。",
+	"apihelp-imagetweaks-extended-description": "注意：您将非常有可能通过此API模块做出超过URL长度限制的请求，因此您应该改用POST请求。",
+	"apihelp-imagetweaks-summary": "基于已存在于wiki的图片创建衍生图片。注意：您将非常有可能通过此API模块做出超过URL长度限制的请求，因此您应该改用POST请求。",
 	"apihelp-imagetweaks-param-text": "用于新文件的初始页面文本。",
 	"apihelp-imagetweaks-param-comment": "上传注释。如果没有指定<var>$1text</var>，那么它也被用于新文件的初始页面文本。",
 	"apihelp-imagetweaks-param-file": "文件内容。",
