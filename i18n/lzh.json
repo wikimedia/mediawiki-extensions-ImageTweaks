@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"imagetweaks-editor-undo": "悔",
+	"imagetweaks-editor-redo": "複",
+	"imagetweaks-editor-rotate-cc": "逆時針旋轉",
+	"imagetweaks-editor-rotate-c": "順時針旋轉",
+	"imagetweaks-editor-crop-button": "理",
+	"imagetweaks-editor-cancel": "退"
+}
