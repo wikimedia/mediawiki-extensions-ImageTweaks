@@ -1,9 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Eduardo Addad de Oliveira"
 		]
 	},
+	"imagetweaks-desc": "API e páginas especiais para edição de imagens na wiki",
+	"imagetweaks-beta-preference-label": "Edição de imagens na wiki",
+	"imagetweaks-beta-preference-desc": "Gire, rode ou corte imagens que estejam nesta wiki de forma rápida, através do seu navegador.",
+	"imagetweaks-editor-open": "Editar esta imagem rapidamente",
 	"imagetweaks-editor-save": "Salvar",
-	"imagetweaks-editor-crop": "Cortar"
+	"imagetweaks-editor-undo": "Desfazer",
+	"imagetweaks-editor-redo": "Refazer",
+	"imagetweaks-editor-rotate-cc": "Girar no sentido anti-horário",
+	"imagetweaks-editor-rotate-c": "Girar no sentido horário",
+	"imagetweaks-editor-flip-v": "Inverter na vertical",
+	"imagetweaks-editor-flip-h": "Inverter na horizontal",
+	"imagetweaks-editor-crop": "Cortar",
+	"imagetweaks-editor-crop-button": "Cortar",
+	"imagetweaks-editor-cancel": "Cancelar",
+	"apihelp-imagetweaks-description": "Criar uma imagem derivada com base numa imagem que já está na wiki.",
+	"apihelp-imagetweaks-extended-description": "Nota: é provável que vá exceder o comprimento limite do URL ao fazer pedidos a este módulo da API, por isso deve usar um pedido POST.",
+	"apihelp-imagetweaks-summary": "Criar uma imagem derivada com base numa imagem que já está na wiki. Nota: é provável que vá exceder o comprimento limite do URL ao fazer pedidos a este módulo da API, por isso deve usar um pedido POST.",
+	"apihelp-imagetweaks-param-text": "Texto inicial da página para novos arquivos.",
+	"apihelp-imagetweaks-param-comment": "Faça o upload do comentário. Também usado como o texto da página inicial para novos arquivos, se <var>$1text</var> não for especificado.",
+	"apihelp-imagetweaks-param-file": "Conteúdo do arquivo.",
+	"apihelp-imagetweaks-param-destfile": "Nome de destino do arquivo.",
+	"apihelp-imagetweaks-param-filters": "Filtros a serem adicionados à imagem.",
+	"apihelp-imagetweaks-param-stash": "Se configurado, o servidor armazenará o arquivo temporariamente em vez de adicioná-lo ao repositório."
 }
