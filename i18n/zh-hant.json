@@ -1,11 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
+	"imagetweaks-desc": "在 wiki 上編輯圖片用的 API 和特殊頁面",
+	"imagetweaks-beta-preference-label": "在 wiki 上編輯圖片",
+	"imagetweaks-beta-preference-desc": "在您的瀏覽器來快速翻轉、旋轉，或是裁剪已存在此 wiki 上的圖片。",
+	"imagetweaks-editor-open": "快速編輯此圖片",
 	"imagetweaks-editor-save": "儲存",
 	"imagetweaks-editor-undo": "還原",
 	"imagetweaks-editor-redo": "重做",
-	"imagetweaks-editor-cancel": "取消"
+	"imagetweaks-editor-rotate-cc": "逆時針旋轉",
+	"imagetweaks-editor-rotate-c": "順時針旋轉",
+	"imagetweaks-editor-flip-v": "垂直翻轉",
+	"imagetweaks-editor-flip-h": "水平翻轉",
+	"imagetweaks-editor-crop": "裁剪",
+	"imagetweaks-editor-crop-button": "裁剪",
+	"imagetweaks-editor-cancel": "取消",
+	"apihelp-imagetweaks-description": "基於已存在此 wiki 上的圖片，來建立出衍生圖片。",
+	"apihelp-imagetweaks-extended-description": "注意：您對此 API 模組的請求很有可能會超過 URL 長度限制，因此您應該改採用 POST 請求。",
+	"apihelp-imagetweaks-summary": "基於已存在此 wiki 上的圖片，來建立出衍生圖片。注意：您對此 API 模組的請求很有可能會超過 URL 長度限制，因此您應該改採用 POST 請求。",
+	"apihelp-imagetweaks-param-text": "用於新檔案的初始頁面文字。",
+	"apihelp-imagetweaks-param-comment": "上傳註釋。如果 <var>$1text</var> 未指定的話，也會作為新檔案用的初始頁面文字。",
+	"apihelp-imagetweaks-param-file": "檔案內容。",
+	"apihelp-imagetweaks-param-destfile": "目標檔案。",
+	"apihelp-imagetweaks-param-filters": "要添加到圖片的篩選。",
+	"apihelp-imagetweaks-param-stash": "若設定的話，伺服器將會把檔案臨時暫存；而不是添加至儲存庫裡。"
 }
