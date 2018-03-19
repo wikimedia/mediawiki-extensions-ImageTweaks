@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Ghybu"
 		]
 	},
 	"imagetweaks-editor-save": "Tomar bike",
+	"imagetweaks-editor-undo": "Betal bike",
 	"imagetweaks-editor-cancel": "Betal bike"
 }

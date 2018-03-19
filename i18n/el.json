@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"imagetweaks-editor-save": "Αποθήκευση",
+	"imagetweaks-editor-undo": "Αναίρεση",
+	"imagetweaks-editor-redo": "Ακύρωση αναίρεσης"
+}
