@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Metalhead64"
+			"Metalhead64",
+			"ToBeFree"
 		]
 	},
 	"imagetweaks-desc": "Ergänzt eine API und Spezialseiten zur Bearbeitung von Bildern im Wiki",
@@ -18,6 +19,8 @@
 	"imagetweaks-editor-crop": "Abschneiden",
 	"imagetweaks-editor-crop-button": "Abschneiden",
 	"imagetweaks-editor-cancel": "Abbrechen",
+	"apihelp-imagetweaks-extended-description": "Hinweis: Es ist sehr wahrscheinlich, dass eine Anfrage an dieses API-Modul das URL-Längenlimit überschreiten wird. Daher sollte stattdessen eine HTTP-POST-Anfrage verwendet werden.",
+	"apihelp-imagetweaks-summary": "Erstelle ein abgewandeltes Bild auf Grundlage eines bereits im Wiki vorhandenen Bildes. Hinweis: Es ist sehr wahrscheinlich, dass eine Anfrage an dieses API-Modul das URL-Längenlimit überschreiten wird. Daher sollte stattdessen eine HTTP-POST-Anfrage verwendet werden.",
 	"apihelp-imagetweaks-param-text": "Erster Seitentext für neue Dateien.",
 	"apihelp-imagetweaks-param-comment": "Hochladekommentar. Wird auch als erster Seitentext für neue Dateien verwendet, falls <var>$1text</var> nicht angegeben wurde.",
 	"apihelp-imagetweaks-param-file": "Dateiinhalte.",
