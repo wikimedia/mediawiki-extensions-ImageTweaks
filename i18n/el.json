@@ -6,5 +6,11 @@
 	},
 	"imagetweaks-editor-save": "Αποθήκευση",
 	"imagetweaks-editor-undo": "Αναίρεση",
-	"imagetweaks-editor-redo": "Ακύρωση αναίρεσης"
+	"imagetweaks-editor-redo": "Ακύρωση αναίρεσης",
+	"imagetweaks-editor-crop": "Περικοπή",
+	"imagetweaks-editor-crop-button": "Περικοπή",
+	"imagetweaks-editor-cancel": "Ακύρωση",
+	"apihelp-imagetweaks-param-file": "Περιεχόμενα αρχείου.",
+	"apihelp-imagetweaks-param-destfile": "Αρχείο στόχου.",
+	"apihelp-imagetweaks-param-filters": "Τι φίλτρα να προστεθούν στην εικόνα."
 }
