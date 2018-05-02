@@ -2,10 +2,31 @@
 	"@metadata": {
 		"authors": [
 			"محمد أحمد عبد الفتاح",
-			"Maroen1990"
+			"Maroen1990",
+			"ديفيد"
 		]
 	},
+	"imagetweaks-desc": "API وصفحات خاصة لتحرير الصور في الويكي",
+	"imagetweaks-beta-preference-label": "تحرير الصور في الويكي",
+	"imagetweaks-beta-preference-desc": "قلب أو تدوير أو قص الصور الموجودة بالفعل في هذا الويكي، في متصفحك بسرعة.",
+	"imagetweaks-editor-open": "تحرير هذه الصورة بسرعة",
 	"imagetweaks-editor-save": "حفظ",
 	"imagetweaks-editor-undo": "تراجع",
-	"imagetweaks-editor-cancel": "ألغ"
+	"imagetweaks-editor-redo": "إعادة",
+	"imagetweaks-editor-rotate-cc": "تدوير عكس اتجاه عقارب الساعة",
+	"imagetweaks-editor-rotate-c": "تدوير في اتجاه عقارب الساعة",
+	"imagetweaks-editor-flip-v": "القلب عموديا",
+	"imagetweaks-editor-flip-h": "القلب أفقيا",
+	"imagetweaks-editor-crop": "قص",
+	"imagetweaks-editor-crop-button": "قص",
+	"imagetweaks-editor-cancel": "ألغ",
+	"apihelp-imagetweaks-description": "إنشاء صورة مشتقة قائمة على صورة موجودة بالفعل في الويكي.",
+	"apihelp-imagetweaks-extended-description": "ملاحظة: هناك احتمال كبير بأن تتخطى حد طول مسار مع طلب إلى وحدة API هذه; لذلك يجب عليك استخدام طلب POST بدلا من ذلك.",
+	"apihelp-imagetweaks-summary": "إنشاء صورة مشتقة قائمة على صورة موجودة بالفعل في الويكي، ملاحظة: هناك احتمال كبير بأن تتخطى حد طول مسار مع طلب إلى وحدة API هذه; لذلك يجب عليك استخدام طلب POST بدلا من ذلك.",
+	"apihelp-imagetweaks-param-text": "النص الأولي للصفحة للملفات الجديدة.",
+	"apihelp-imagetweaks-param-comment": "تحميل تعليق الرفع، يُستخدَم أيضا كنص الصفحة الأولي للملفات الجديدة إذا لم يتم تحديد <var>$1text</var>.",
+	"apihelp-imagetweaks-param-file": "محتويات الملف.",
+	"apihelp-imagetweaks-param-destfile": "الملف الهدف.",
+	"apihelp-imagetweaks-param-filters": "أي المرشحات لإضافتها إلى الصورة.",
+	"apihelp-imagetweaks-param-stash": "في حالة التعيين، سيخزن الخادم الملف مؤقتا بدلا من إضافته إلى المستودع."
 }
