@@ -4,12 +4,17 @@
 			"Nikosgranturismogt"
 		]
 	},
+	"imagetweaks-desc": "API και ειδικές σελίδες για την επεξεργασία εικόνων εντός του βίκι",
+	"imagetweaks-beta-preference-label": "Επεξεργασία εικόνων σε ένα βίκι",
+	"imagetweaks-editor-open": "Γρήγορη επεξεργασία εικόνας",
 	"imagetweaks-editor-save": "Αποθήκευση",
 	"imagetweaks-editor-undo": "Αναίρεση",
 	"imagetweaks-editor-redo": "Ακύρωση αναίρεσης",
+	"imagetweaks-editor-rotate-c": "Αντιστροφή κατακόρυφα",
 	"imagetweaks-editor-crop": "Περικοπή",
 	"imagetweaks-editor-crop-button": "Περικοπή",
 	"imagetweaks-editor-cancel": "Ακύρωση",
+	"apihelp-imagetweaks-param-text": "Αρχικό κείμενο σελίδας για νέα αρχεία.",
 	"apihelp-imagetweaks-param-file": "Περιεχόμενα αρχείου.",
 	"apihelp-imagetweaks-param-destfile": "Αρχείο στόχου.",
 	"apihelp-imagetweaks-param-filters": "Τι φίλτρα να προστεθούν στην εικόνα."
