@@ -68,9 +68,9 @@ class UploadFromLocalFile extends UploadFromRequest {
 
 		$url = $url . 'filters:' . $filters . '/' . $fileurl;
 
-		$request = MWHttpRequest::factory( $url, array(
+		$request = MWHttpRequest::factory( $url, [
 			'method' => 'GET',
-		) );
+		] );
 
 		if ( !$request::SUPPORTS_FILE_POSTS ) {
 			throw new Exception( 'cURL support is required for this API module. ' );
@@ -90,7 +90,7 @@ class UploadFromLocalFile extends UploadFromRequest {
 	}
 
 	protected function getMDArgs( $params ) {
-		$args = array();
+		$args = [];
 
 		foreach ( $params as $param => $val ) {
 			if ( in_array( $param, $this::$mdargs ) ) {

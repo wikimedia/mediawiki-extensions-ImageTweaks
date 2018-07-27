@@ -23,9 +23,9 @@
 
 class HTMLImageDisplayField extends HTMLFormField {
 	function getInputHTML( $value ) {
-		$attribs = array(
+		$attribs = [
 			'id' => $this->mID,
-		) + $this->getTooltipAndAccessKey();
+		] + $this->getTooltipAndAccessKey();
 
 		if ( $this->mClass !== '' ) {
 			$attribs['class'] = $this->mClass;
@@ -33,10 +33,10 @@ class HTMLImageDisplayField extends HTMLFormField {
 
 		# @todo Enforce pattern, step, required, readonly on the server side as
 		# well
-		$allowedParams = array(
+		$allowedParams = [
 			'width',
 			'height',
-		);
+		];
 
 		$attribs += $this->getAttributes( $allowedParams );
 
@@ -53,10 +53,10 @@ class HTMLImageDisplayField extends HTMLFormField {
 			$file = $repo->findFile( $title );
 
 			if ( $file ) {
-				$thumb = $file->transform( array( 'width' => 400, 'height' => 400 ) );
-				$p = Html::element( 'p', array(), $title->getPrefixedText() );
-				$image = Html::element( 'img', array( 'src' => $thumb->getUrl() ) + $attribs );
-				return Html::rawElement( 'div', array(), $p . $image );
+				$thumb = $file->transform( [ 'width' => 400, 'height' => 400 ] );
+				$p = Html::element( 'p', [], $title->getPrefixedText() );
+				$image = Html::element( 'img', [ 'src' => $thumb->getUrl() ] + $attribs );
+				return Html::rawElement( 'div', [], $p . $image );
 			}
 		}
 	}

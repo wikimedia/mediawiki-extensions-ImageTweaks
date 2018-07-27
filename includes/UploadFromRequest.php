@@ -120,7 +120,7 @@ class UploadFromRequest extends UploadBase {
 		$this->mRemoveTempFile = true;
 		$this->mFileSize = 0;
 
-		$this->mRequest->setCallback( array( $this, 'saveTempFileChunk' ) );
+		$this->mRequest->setCallback( [ $this, 'saveTempFileChunk' ] );
 		$status = $this->mRequest->execute();
 
 		fclose( $this->mTmpHandle );

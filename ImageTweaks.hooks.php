@@ -33,20 +33,20 @@ class ImageTweaksHooks {
 	public static function addBetaPreference( User $user, array &$preferences ) {
 		$coreConfig = RequestContext::getMain()->getConfig();
 		$iconpath = $coreConfig->get( 'ExtensionAssetsPath' ) . "/ImageTweaks";
-		$preferences['image-tweaks'] = array(
+		$preferences['image-tweaks'] = [
 			'version' => '1.0',
 			'label-message' => 'imagetweaks-beta-preference-label',
 			'desc-message' => 'imagetweaks-beta-preference-desc',
-			'screenshot' => array(
+			'screenshot' => [
 				'ltr' => "$iconpath/betafeatures-icon-ImageTweaks-ltr.svg",
 				'rtl' => "$iconpath/betafeatures-icon-ImageTweaks-rtl.svg",
-			),
+			],
 			'info-message' => 'imagetweaks-beta-preference-info-link',
 			'discussion-message' => 'imagetweaks-beta-preference-disc-link',
-			'requirements' => array(
+			'requirements' => [
 				'javascript' => true,
-			),
-		);
+			],
+		];
 	}
 
 	/**
@@ -69,7 +69,7 @@ class ImageTweaksHooks {
 			}
 
 			if ( $enabled ) {
-				$out->addModules( array( 'imagetweaks.bootstrap' ) );
+				$out->addModules( [ 'imagetweaks.bootstrap' ] );
 			}
 		}
 

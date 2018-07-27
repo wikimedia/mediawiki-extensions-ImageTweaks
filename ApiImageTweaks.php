@@ -45,7 +45,7 @@ class ApiImageTweaks extends ApiBase {
 			$this->dieStatus( $status );
 		}
 
-		$result = array();
+		$result = [];
 
 		if ( !$params['stash'] ) {
 			$status = $upload->performUpload( $params['comment'], $params['text'], false, $this->getUser() );
@@ -82,30 +82,30 @@ class ApiImageTweaks extends ApiBase {
 	}
 
 	public function getAllowedParams() {
-		return array(
-			'text' => array(
+		return [
+			'text' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
+			],
 
-			'comment' => array(
+			'comment' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
+			],
 
-			'file' => array(
+			'file' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
+			],
 
-			'destfile' => array(
+			'destfile' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
+			],
 
-			'filters' => array(
+			'filters' => [
 				ApiBase::PARAM_TYPE => 'string',
-			),
+			],
 
-			'stash' => array(
+			'stash' => [
 				ApiBase::PARAM_TYPE => 'boolean',
-			),
-		);
+			],
+		];
 	}
 }
