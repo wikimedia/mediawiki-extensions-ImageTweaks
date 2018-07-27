@@ -58,7 +58,7 @@ class UploadFromLocalFile extends UploadFromRequest {
 
 		if ( !$file ) {
 			$file = $repo->findFile( $sourcename );
-			
+
 			if ( !$file ) {
 				throw new Exception( 'File not found' );
 			}
