@@ -18,4 +18,4 @@ if ( function_exists( 'wfLoadExtension' ) ) {
 	return true;
 }
 
-die( 'This version of the VisualEditor extension requires MediaWiki 1.25+.' );
+die( 'This version of the ImageTweaks extension requires MediaWiki 1.25+.' );
