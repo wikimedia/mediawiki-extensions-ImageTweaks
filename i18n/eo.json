@@ -1,11 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"YvesNevelsteen"
 		]
 	},
+	"imagetweaks-desc": "API kaj specialaj paĝoj por redakti bildojn sur-vikie",
+	"imagetweaks-beta-preference-label": "Sur-vikia bildoredaktado",
+	"imagetweaks-beta-preference-desc": "Rapide inversigi, rotacii aŭ stuci bildojn sur ĉi tiu vi io, en via retumilo.",
+	"imagetweaks-editor-open": "Rapide modifi ĉi tiun bildon",
 	"imagetweaks-editor-save": "Konservi",
 	"imagetweaks-editor-undo": "Malfari",
 	"imagetweaks-editor-redo": "Refari",
+	"imagetweaks-editor-rotate-cc": "Rotacii kontraŭhorloĝdirekte",
+	"imagetweaks-editor-rotate-c": "Rotacii horloĝdirekte",
+	"imagetweaks-editor-flip-v": "Inversigi vertikale",
+	"imagetweaks-editor-flip-h": "Inversigi horizontale",
+	"imagetweaks-editor-crop": "Sruci",
+	"imagetweaks-editor-crop-button": "Stuci",
 	"imagetweaks-editor-cancel": "Nuligi"
 }
