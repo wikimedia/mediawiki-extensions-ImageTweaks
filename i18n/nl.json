@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Mainframe98"
 		]
 	},
 	"imagetweaks-editor-open": "Deze afbeelding snel bewerken",
@@ -13,5 +14,7 @@
 	"imagetweaks-editor-flip-h": "Horizontaal spiegelen",
 	"imagetweaks-editor-crop": "Bijsnijden",
 	"imagetweaks-editor-crop-button": "Bijsnijden",
-	"imagetweaks-editor-cancel": "Annuleren"
+	"imagetweaks-editor-cancel": "Annuleren",
+	"apihelp-imagetweaks-param-file": "Bestandsinhoud.",
+	"apihelp-imagetweaks-param-destfile": "Doelbestand."
 }
