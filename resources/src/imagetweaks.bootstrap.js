@@ -20,8 +20,7 @@
 
 		$.when( modulePromise, apiPromise ).then( function ( moduleArgs, apiArgs ) {
 			var result = apiArgs[ 0 ],
-				dotExtension = title.getDotExtension(),
-				extension = mw.Title.normalizeExtension( dotExtension.replace( /^\./, '' ) ),
+				extension = mw.Title.normalizeExtension( title.getExtension() ),
 				editor = new mw.ImageEditor( {
 					imagePath: result.query.pages[ result.query.pageids[ 0 ] ].imageinfo[ 0 ].url,
 					cb: function () {
