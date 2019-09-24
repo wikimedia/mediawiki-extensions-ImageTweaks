@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"imagetweaks-desc": "API e pàggene speciale pu cangiamende de le immaggine sus a uicchi",
+	"imagetweaks-beta-preference-label": "Cangiamende de l'immaggine sus a uicchi",
+	"imagetweaks-beta-preference-desc": "Mitte a smerse, gire o tagghie veloce veloce le immaggine già sus a sta uicchi, jndr'à 'u browser tune.",
+	"imagetweaks-editor-open": "Cange velocemende st'immaggine",
+	"imagetweaks-editor-save": "Reggìstre",
+	"imagetweaks-editor-undo": "Annulle",
+	"imagetweaks-editor-redo": "Fà arrete",
+	"imagetweaks-editor-rotate-cc": "Gire in senze anti orarie",
+	"imagetweaks-editor-rotate-c": "Gire in senze orarie",
+	"imagetweaks-editor-flip-v": "Revolte verticalmende",
+	"imagetweaks-editor-flip-h": "Revolte orizzondalmende",
+	"imagetweaks-editor-crop": "Tagghie",
+	"imagetweaks-editor-crop-button": "Tagghie",
+	"imagetweaks-editor-cancel": "Annulle",
+	"apihelp-imagetweaks-description": "Ccreje 'n'immaggine derivate ca se base sus a 'n'immaggine ggià presende sus a uicchi.",
+	"apihelp-imagetweaks-extended-description": "Note: Jè assaije probbabbile ca supranisce 'u limite de lunghezze URL cu 'na richieste a stu module API, quinde avissa ausà 'na richieste de tipe POST.",
+	"apihelp-imagetweaks-summary": "Ccreje 'n'immaggine derivate ca se base sus a 'n'immaggine ggià presende sus a uicchi. Note: Jè assaije probbabbile ca supranisce 'u limite de lunghezze URL cu 'na richieste a stu module API, quinde avissa ausà 'na richieste de tipe POST.",
+	"apihelp-imagetweaks-param-text": "Pàgene iniziale de teste pe le file nuève.",
+	"apihelp-imagetweaks-param-comment": "Commende de carecamende. Ausate pure cumme pàgene iniziale de teste pe le file nuève ce <var>$1text</var>  non g'è specificate.",
+	"apihelp-imagetweaks-param-file": "Condenute d'u file.",
+	"apihelp-imagetweaks-param-destfile": "File de destinazione.",
+	"apihelp-imagetweaks-param-filters": "Ce filtre ha aggiungere a l'immaggine.",
+	"apihelp-imagetweaks-param-stash": "Ce 'mbostate, 'u server stipe 'u file temboranèe invece de aggiungerle jndr'à l'archivije."
+}
