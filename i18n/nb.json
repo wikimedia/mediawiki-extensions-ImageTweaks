@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"imagetweaks-desc": "API og spesialsider for å redigere bilder på wikien",
+	"imagetweaks-beta-preference-label": "Bilderedigering på wikien",
+	"imagetweaks-beta-preference-desc": "Vend, roter eller beskjær bilder som allerede finnes på wikien raskt i nettleseren din.",
+	"imagetweaks-editor-open": "Rediger dette bildet raskt",
+	"imagetweaks-editor-save": "Lagre",
+	"imagetweaks-editor-undo": "Angre",
+	"imagetweaks-editor-redo": "Gjenta",
+	"imagetweaks-editor-rotate-cc": "Roter mot klokka",
+	"imagetweaks-editor-rotate-c": "Roter med klokka",
+	"imagetweaks-editor-flip-v": "Snu vertikalt",
+	"imagetweaks-editor-flip-h": "Snu horisontalt",
+	"imagetweaks-editor-crop": "Beskjær",
+	"imagetweaks-editor-crop-button": "Beskjær",
+	"imagetweaks-editor-cancel": "Avbryt",
+	"apihelp-imagetweaks-description": "Opprett et derivert bilde basert på et bilde som allerede finnes på wikien.",
+	"apihelp-imagetweaks-extended-description": "Merk: Det er stor sannsynlighet for at du vil overstige URL-lengdebegrensningen med en forespørsel til denne API-modulen, så du bør bruke en POST-forespørsel i stedet.",
+	"apihelp-imagetweaks-summary": "Opprett et derivert bilde basert på et bilde som allerede finnes på wikien. Merk: Det er stor sannsynlighet for at du vil overstige URL-lengdebegrensningen med en forespørsel til denne API-modulen, så du bør bruke en POST-forespørsel i stedet.",
+	"apihelp-imagetweaks-param-text": "Utgangspunkt for sidetekst for nye filer.",
+	"apihelp-imagetweaks-param-comment": "Opplastingskommentar. Brukes også som utgangspunkt for teksten til nye filer hvis <var>$1text</var> ikke angis.",
+	"apihelp-imagetweaks-param-file": "Filinnhold.",
+	"apihelp-imagetweaks-param-destfile": "Målfil.",
+	"apihelp-imagetweaks-param-filters": "Hvilke filtre som skal legges til bildet.",
+	"apihelp-imagetweaks-param-stash": "Hvis denne er satt vil tjeneren lagre filen midlertidig i stedet for å legge den til i fillageret."
+}
