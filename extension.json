@@ -115,7 +115,7 @@
 		"ImageTweaksHooks::onSetup"
 	],
 	"AutoloadClasses": {
-		"ApiImageTweaks": "ApiImageTweaks.php",
+		"ApiImageTweaks": "includes/ApiImageTweaks.php",
 		"HTMLImageDisplayField": "includes/HTMLImageDisplayField.php",
 		"ImageTweaksHooks": "ImageTweaks.hooks.php",
 		"UploadFromLocalFile": "includes/UploadFromLocalFile.php",
