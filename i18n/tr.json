@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"imagetweaks-desc": "Wikide görüntüleri düzenlemek için API ve özel sayfalar",
+	"imagetweaks-beta-preference-label": "Wikide görüntü düzenleme",
+	"imagetweaks-beta-preference-desc": "Bu wikide bulunan resimleri tarayıcınızda hızla çevirin, döndürün veya kırpın.",
+	"imagetweaks-editor-open": "Bu resmi hızlı bir şekilde düzenle",
+	"imagetweaks-editor-save": "Kaydet",
+	"imagetweaks-editor-undo": "Geri al",
+	"imagetweaks-editor-redo": "Yinele",
+	"imagetweaks-editor-rotate-cc": "Saat yönünün tersine çevirin",
+	"imagetweaks-editor-rotate-c": "Saat yönünde döndür",
+	"imagetweaks-editor-flip-v": "Dikey olarak çevir",
+	"imagetweaks-editor-flip-h": "Yatay olarak çevir",
+	"imagetweaks-editor-crop": "Kırp",
+	"imagetweaks-editor-crop-button": "Kırp",
+	"imagetweaks-editor-cancel": "İptal",
+	"apihelp-imagetweaks-description": "Wikide zaten bulunan bir görüntüye dayalı bir türev görüntü oluşturun.",
+	"apihelp-imagetweaks-extended-description": "Not: Bu API modülüne yapılan bir istekle URL uzunluk sınırını aşma olasılığınız yüksektir, bu nedenle bunun yerine bir POST isteği kullanmalısınız.",
+	"apihelp-imagetweaks-summary": "Wikide zaten bulunan bir görüntüye dayalı bir türev görüntü oluşturun. Not: Bu API modülüne yapılan bir istekle URL uzunluk sınırını aşma olasılığınız yüksektir, bu nedenle bunun yerine bir POST isteği kullanmalısınız.",
+	"apihelp-imagetweaks-param-text": "Yeni dosyalar için başlangıç sayfası metni.",
+	"apihelp-imagetweaks-param-comment": "Yorum yükle. <var>$1text</var> belirtilmezse, yeni dosyalar için ilk sayfa metni olarak da kullanılır.",
+	"apihelp-imagetweaks-param-file": "Dosya içeriği.",
+	"apihelp-imagetweaks-param-destfile": "Hedef dosya.",
+	"apihelp-imagetweaks-param-filters": "Görüntüye eklenecek filtreler.",
+	"apihelp-imagetweaks-param-stash": "Ayarlanırsa, sunucu dosyayı depoya eklemek yerine geçici olarak saklar."
+}
