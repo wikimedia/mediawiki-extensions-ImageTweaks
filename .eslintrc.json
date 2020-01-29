@@ -1,0 +1,16 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client"
+	],
+	"globals": {
+		"mediaWiki": true,
+		"JSON": true,
+		"OO": true,
+		"jQuery": false,
+		"Caman": false
+	},
+	"rules": {
+		"valid-jsdoc": "off"
+	}
+}

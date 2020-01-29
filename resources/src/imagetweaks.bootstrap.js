@@ -7,7 +7,7 @@
 	);
 
 	$( link ).on( 'click', function ( e ) {
-		var origBase64, modulePromise = mw.loader.using( 'ImageEditor' ),
+		var modulePromise = mw.loader.using( 'ImageEditor' ),
 			api = new mw.Api(),
 			title = mw.Title.newFromText( mw.config.get( 'wgPageName' ) ),
 			apiPromise = api.get( {
@@ -24,7 +24,7 @@
 				editor = new mw.ImageEditor( {
 					imagePath: result.query.pages[ result.query.pageids[ 0 ] ].imageinfo[ 0 ].url,
 					cb: function () {
-						origBase64 = editor.getImage( extension );
+						editor.getImage( extension );
 					}
 				} );
 
