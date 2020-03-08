@@ -22,6 +22,8 @@
  * @ingroup Upload
  */
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * Implements uploading from a local file.
  *
@@ -45,9 +47,7 @@ class UploadFromLocalFile extends UploadFromRequest {
 	 * @throws MWException
 	 */
 	public function initializeFromData( $name, $sourcename, $filters, $url ) {
-		$repoGroup = RepoGroup::singleton();
-		$repoGroup->initialiseRepos();
-		$repo = $repoGroup->getLocalRepo();
+		$repo = MediaWikiServices::getInstance()->getRepoGroup()->getLocalRepo();
 		$title = Title::newFromText( $sourcename );
 
 		if ( !$title->inNamespace( NS_FILE ) ) {

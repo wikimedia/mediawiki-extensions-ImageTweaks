@@ -21,6 +21,8 @@
  * @ingroup Upload
  */
 
+use MediaWiki\MediaWikiServices;
+
 class HTMLImageDisplayField extends HTMLFormField {
 	function getInputHTML( $value ) {
 		$attribs = [
@@ -40,9 +42,6 @@ class HTMLImageDisplayField extends HTMLFormField {
 
 		$attribs += $this->getAttributes( $allowedParams );
 
-		$repoGroup = RepoGroup::singleton();
-		$repoGroup->initialiseRepos();
-		$repo = $repoGroup->getLocalRepo();
 		$title = Title::newFromText( $value );
 
 		if ( $title ) {
@@ -50,7 +49,8 @@ class HTMLImageDisplayField extends HTMLFormField {
 				$title = Title::newFromText( 'File:' . $value );
 			}
 
-			$file = $repo->findFile( $title );
+			$file = MediaWikiServices::getInstance()->getRepoGroup()->getLocalRepo()
+				->findFile( $title );
 
 			if ( $file ) {
 				$thumb = $file->transform( [ 'width' => 400, 'height' => 400 ] );
