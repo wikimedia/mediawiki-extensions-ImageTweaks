@@ -53,8 +53,8 @@ class ImageTweaksHooks {
 	 * Handler for BeforePageDisplay hook
 	 * Adds ImageTweaks bootstrap module to file pages when the
 	 * user has enabled the feature.
-	 * @param OutputPage $out
-	 * @param Skin $skin
+	 * @param OutputPage &$out
+	 * @param Skin &$skin
 	 * @return bool
 	 */
 	public static function getModulesForFilePage( &$out, &$skin ) {
