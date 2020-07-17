@@ -135,6 +135,7 @@
 	 *          includes: [ 'myNewTool' ]
 	 *     } ) );
 	 *
+	 * @param config
 	 * @cfg {string} name (required)
 	 * @cfg {string} icon (required)
 	 * @cfg {string} title (required)

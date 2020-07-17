@@ -13,6 +13,7 @@
 	 *     // Register any new tools here
 	 *     e.initialize();
 	 *
+	 * @param config
 	 * @cfg {string} imagePath Path of the image to load in the editor.
 	 */
 	mw.ImageEditor = function ( config ) {
@@ -410,6 +411,7 @@
 	/**
 	 * Sets up an instance of mw.ImageTool with the toolbar.
 	 *
+	 * @param tool
 	 * @private
 	 */
 	mw.ImageEditor.prototype.setupTool = function ( tool ) {
@@ -457,6 +459,8 @@
 
 	/**
 	 * Register an mw.ImageTool with the editor
+	 *
+	 * @param tool
 	 */
 	mw.ImageEditor.prototype.registerTool = function ( tool ) {
 		this.tools[ tool.name ] = tool;
