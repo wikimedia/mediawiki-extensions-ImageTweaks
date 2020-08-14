@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"Mark Holmquist"
+			"Mark Holmquist",
+			"Umherirrender"
 		]
 	},
 	"imagetweaks-desc": "{{desc|name=Imagetweaks|url=https://www.mediawiki.org/wiki/Extension:ImageTweaks}}",
 	"imagetweaks-beta-preference-label": "Used on [[Special:Preferences]].\n\nUsed as the label for the checkbox to enable the image editor.",
 	"imagetweaks-beta-preference-desc": "Used on [[Special:Preferences]].\n\nUsed as the description for the checkbox to enable the image editor.",
-	"imagetweaks-beta-preference-info-link": "{{optional|Used on [[Special:Preferences]] as a link to a page where users can learn about the image editor.}}",
-	"imagetweaks-beta-preference-disc-link": "{{optional|Used on [[Special:Preferences]] as a link to a page where users can discuss the image editor.}}",
+	"imagetweaks-beta-preference-info-link": "{{notranslate}}\nUsed on [[Special:Preferences]] as a link to a page where users can learn about the image editor.",
+	"imagetweaks-beta-preference-disc-link": "{{notranslate}}\nUsed on [[Special:Preferences]] as a link to a page where users can discuss the image editor.",
 	"imagetweaks-editor-open": "Button for opening an interface for visually editing an image on-wiki.",
 	"imagetweaks-editor-save": "Starts the save process for an edited image.\n{{Identical|Save}}",
 	"imagetweaks-editor-undo": "Undoes an action in the image editor.\n{{Identical|Undo}}",
