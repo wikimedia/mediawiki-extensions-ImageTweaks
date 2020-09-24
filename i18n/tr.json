@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
 		]
 	},
-	"imagetweaks-desc": "Wikide görüntüleri düzenlemek için API ve özel sayfalar",
-	"imagetweaks-beta-preference-label": "Wikide görüntü düzenleme",
-	"imagetweaks-beta-preference-desc": "Bu wikide bulunan resimleri tarayıcınızda hızla çevirin, döndürün veya kırpın.",
+	"imagetweaks-desc": "Vikide resimleri düzenlemek için API ve özel sayfalar",
+	"imagetweaks-beta-preference-label": "Vikide resim düzenleme",
+	"imagetweaks-beta-preference-desc": "Bu vikide bulunan resimleri tarayıcınızda hızla çevirin, döndürün veya kırpın.",
 	"imagetweaks-editor-open": "Bu resmi hızlı bir şekilde düzenle",
 	"imagetweaks-editor-save": "Kaydet",
 	"imagetweaks-editor-undo": "Geri al",
@@ -18,13 +19,13 @@
 	"imagetweaks-editor-crop": "Kırp",
 	"imagetweaks-editor-crop-button": "Kırp",
 	"imagetweaks-editor-cancel": "İptal",
-	"apihelp-imagetweaks-description": "Wikide zaten bulunan bir görüntüye dayalı bir türev görüntü oluşturun.",
+	"apihelp-imagetweaks-description": "Vikide zaten bulunan bir resime dayalı bir türev resim oluşturun.",
 	"apihelp-imagetweaks-extended-description": "Not: Bu API modülüne yapılan bir istekle URL uzunluk sınırını aşma olasılığınız yüksektir, bu nedenle bunun yerine bir POST isteği kullanmalısınız.",
-	"apihelp-imagetweaks-summary": "Wikide zaten bulunan bir görüntüye dayalı bir türev görüntü oluşturun. Not: Bu API modülüne yapılan bir istekle URL uzunluk sınırını aşma olasılığınız yüksektir, bu nedenle bunun yerine bir POST isteği kullanmalısınız.",
+	"apihelp-imagetweaks-summary": "Vikide zaten bulunan bir resime dayalı bir türev resim oluşturun. Not: Bu API modülüne yapılan bir istekle URL uzunluk sınırını aşma olasılığınız yüksektir, bu nedenle bunun yerine bir POST isteği kullanmalısınız.",
 	"apihelp-imagetweaks-param-text": "Yeni dosyalar için başlangıç sayfası metni.",
-	"apihelp-imagetweaks-param-comment": "Yorum yükle. <var>$1text</var> belirtilmezse, yeni dosyalar için ilk sayfa metni olarak da kullanılır.",
+	"apihelp-imagetweaks-param-comment": "Yorum yükleyin. <var>$1text</var> belirtilmezse, yeni dosyalar için ilk sayfa metni olarak da kullanılır.",
 	"apihelp-imagetweaks-param-file": "Dosya içeriği.",
 	"apihelp-imagetweaks-param-destfile": "Hedef dosya.",
-	"apihelp-imagetweaks-param-filters": "Görüntüye eklenecek filtreler.",
+	"apihelp-imagetweaks-param-filters": "Resime eklenecek filtreler.",
 	"apihelp-imagetweaks-param-stash": "Ayarlanırsa, sunucu dosyayı depoya eklemek yerine geçici olarak saklar."
 }
