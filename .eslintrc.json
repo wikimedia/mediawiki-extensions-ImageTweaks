@@ -12,6 +12,7 @@
 	},
 	"rules": {
 		"valid-jsdoc": "off",
-		"no-shadow": "warn"
+		"no-shadow": "warn",
+		"no-useless-escape": "warn"
 	}
 }
