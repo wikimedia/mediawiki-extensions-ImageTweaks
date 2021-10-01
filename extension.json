@@ -10,7 +10,7 @@
 	"type": "other",
 	"callback": "ImageTweaksHooks::onRegistration",
 	"requires": {
-		"MediaWiki": ">= 1.34.0"
+		"MediaWiki": ">= 1.36.0"
 	},
 	"config": {
 		"ImageTweaksEnabled": false,

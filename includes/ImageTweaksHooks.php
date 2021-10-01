@@ -21,6 +21,8 @@
  * @ingroup Extensions
  */
 
+use MediaWiki\Extension\BetaFeatures\BetaFeatures;
+
 class ImageTweaksHooks {
 	public static function onRegistration() {
 		return true;
@@ -59,12 +61,11 @@ class ImageTweaksHooks {
 	 */
 	public static function getModulesForFilePage( &$out, &$skin ) {
 		if ( $out->getTitle()->inNamespace( NS_FILE ) ) {
-			$user = $out->getUser();
 			$conf = $out->getConfig();
 			$enabled = $conf->get( 'ImageTweaksEnabled' );
 			$inbeta = $conf->get( 'ImageTweaksInBeta' );
 
-			if ( $enabled && $inbeta && class_exists( 'BetaFeatures' ) ) {
+			if ( $enabled && $inbeta && ExtensionRegistry::getInstance()->isLoaded( 'BetaFeatures' ) ) {
 				$enabled = BetaFeatures::isFeatureEnabled( $out->getUser(), 'image-tweaks' );
 			}
 
