@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jakeukalane",
 			"Macofe"
 		]
 	},
-	"imagetweaks-desc": "API y páginas especiales para la edición de imágenes en el wiki",
-	"imagetweaks-beta-preference-label": "Edición de imágenes en el wiki",
-	"imagetweaks-beta-preference-desc": "Voltear, rotar o recortar rápidamente imágenes que ya están en el wiki desde tu navegador.",
+	"imagetweaks-desc": "API y páginas especiales para la edición de imágenes en la wiki",
+	"imagetweaks-beta-preference-label": "Edición de imágenes en la wiki",
+	"imagetweaks-beta-preference-desc": "Voltear, rotar o recortar rápidamente imágenes que ya están en la wiki desde tu navegador.",
 	"imagetweaks-editor-open": "Editar rápidamente esta imagen",
 	"imagetweaks-editor-save": "Guardar",
 	"imagetweaks-editor-undo": "Deshacer",
