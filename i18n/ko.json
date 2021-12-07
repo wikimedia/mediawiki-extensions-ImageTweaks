@@ -5,7 +5,12 @@
 			"Ykhwong"
 		]
 	},
+	"imagetweaks-desc": "위키에서 이미지를 편집하기 위한 API 및 특수 문서입니다",
+	"imagetweaks-editor-open": "이 이미지를 빠르게 편집",
+	"imagetweaks-editor-save": "저장",
 	"imagetweaks-editor-undo": "실행 취소",
+	"imagetweaks-editor-redo": "다시 시도",
+	"imagetweaks-editor-cancel": "취소",
 	"apihelp-imagetweaks-param-text": "새로운 파일들에 대한 초기 문서 텍스트.",
 	"apihelp-imagetweaks-param-comment": "업로드 주석입니다. 또, <var>$1text</var>가 지정되지 않은 경우 새로운 파일들의 초기 페이지 텍스트로 사용됩니다.",
 	"apihelp-imagetweaks-param-file": "파일의 내용입니다."

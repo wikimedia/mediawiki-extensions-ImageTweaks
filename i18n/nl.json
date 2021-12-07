@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Mainframe98",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Romaine"
 		]
 	},
 	"imagetweaks-editor-open": "Deze afbeelding snel bewerken",
 	"imagetweaks-editor-save": "Opslaan",
 	"imagetweaks-editor-undo": "Ongedaan maken",
+	"imagetweaks-editor-redo": "Opnieuw uitvoeren",
 	"imagetweaks-editor-rotate-cc": "Tegen de klok in draaien",
 	"imagetweaks-editor-rotate-c": "Met de klok mee draaien",
 	"imagetweaks-editor-flip-v": "Verticaal spiegelen",
