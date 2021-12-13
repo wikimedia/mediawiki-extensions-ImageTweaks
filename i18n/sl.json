@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"imagetweaks-editor-save": "Shrani",
+	"imagetweaks-editor-undo": "Razveljavi",
+	"imagetweaks-editor-cancel": "Prekliči"
+}
