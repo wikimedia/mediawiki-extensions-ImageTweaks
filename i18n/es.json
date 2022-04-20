@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Macofe",
-			"Jakeukalane"
+			"Jakeukalane",
+			"DiegoAmbrocio"
 		]
 	},
 	"imagetweaks-desc": "API y páginas especiales para la edición de imágenes en la wiki",
@@ -18,5 +19,9 @@
 	"imagetweaks-editor-flip-h": "Voltear horizontalmente",
 	"imagetweaks-editor-crop": "Recortar",
 	"imagetweaks-editor-crop-button": "Recortar",
-	"imagetweaks-editor-cancel": "Cancelar"
+	"imagetweaks-editor-cancel": "Cancelar",
+	"apihelp-imagetweaks-param-text": "Texto de la página inicial para los nuevos archivos.",
+	"apihelp-imagetweaks-param-file": "Contenido del archivo.",
+	"apihelp-imagetweaks-param-destfile": "Archivo de destino.",
+	"apihelp-imagetweaks-param-filters": "Qué filtros añadir a la imagen."
 }
