@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"McDutchie",
 			"Thibaut120094",
 			"Urhixidur",
 			"Wladek92"
@@ -25,7 +26,7 @@
 	"apihelp-imagetweaks-extended-description": "Note : Il est très vraisemblable que vous dépasserez la limite de taille de l’URL avec une requête à ce module de l’API ; vous devriez donc utiliser plutôt une requête POST.",
 	"apihelp-imagetweaks-summary": "Créer une image dérivée basée sur une image déjà dans le wiki. Note : Il est très probable que vous dépasserez la limite de taille de l’URL avec une requête à ce module de l’API ; vous devriez donc plutôt utiliser une requête POST.",
 	"apihelp-imagetweaks-param-text": "Texte initial de la page pour les nouveaux fichiers.",
-	"apihelp-imagetweaks-param-comment": "Téléverser un commentaire. Utilisé aussi comme texte initial de la page pour les nouveaux fichiers si <var>$1text</var> n’est pas spécifié.",
+	"apihelp-imagetweaks-param-comment": "Commentaire sur le téléversement. Utilisé aussi comme texte initial de la page pour les nouveaux fichiers si <var>$1text</var> n’est pas spécifié.",
 	"apihelp-imagetweaks-param-file": "Contenu du fichier.",
 	"apihelp-imagetweaks-param-destfile": "Fichier cible.",
 	"apihelp-imagetweaks-param-filters": "Quels filtres ajouter à l’image.",
