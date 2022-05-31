@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"imagetweaks-desc": "API e paginas special pro modificar imagines sur le wiki",
+	"imagetweaks-beta-preference-label": "Modification de imagines sur le wiki",
+	"imagetweaks-beta-preference-desc": "Rapidemente torna, rota o talia imagines ja presente sur iste wiki, desde tu navigator.",
+	"imagetweaks-editor-open": "Modificar rapidemente iste imagine",
+	"imagetweaks-editor-save": "Salveguardar",
+	"imagetweaks-editor-undo": "Disfacer",
+	"imagetweaks-editor-redo": "Refacer",
+	"imagetweaks-editor-rotate-cc": "Rotar in senso antihorologic",
+	"imagetweaks-editor-rotate-c": "Rotar in senso horologic",
+	"imagetweaks-editor-flip-v": "Inverter verticalmente",
+	"imagetweaks-editor-flip-h": "Inverter horizontalmente",
+	"imagetweaks-editor-crop": "Taliar",
+	"imagetweaks-editor-crop-button": "Taliar",
+	"imagetweaks-editor-cancel": "Cancellar",
+	"apihelp-imagetweaks-description": "Crear un imagine derivate de un imagine ja presente sur le wiki.",
+	"apihelp-imagetweaks-extended-description": "Nota: es multo probabile que tu excedera le limite de longitude de URL con un requesta a iste modulo API, dunque, tu deberea usar un requesta POST in su loco.",
+	"apihelp-imagetweaks-summary": "Crear un imagine derivate de un imagine ja presente sur le wiki. Nota: es multo probabile que tu excedera le limite de longitude de URL con un requesta a iste modulo API, dunque, tu deberea usar un requesta POST in su loco.",
+	"apihelp-imagetweaks-param-text": "Texto de pagina initial pro nove files.",
+	"apihelp-imagetweaks-param-comment": "Commento sur le incargamento. Equalmente usate como le texto de pagina initial pro nove files si <var>$1text</var> non es specificate.",
+	"apihelp-imagetweaks-param-file": "Contento del file.",
+	"apihelp-imagetweaks-param-destfile": "File de destination.",
+	"apihelp-imagetweaks-param-filters": "Qual filtros adder al imagine.",
+	"apihelp-imagetweaks-param-stash": "Si es definite, le servitor immagazinara temporarimente le file in loco de adder lo al repositorio."
+}
