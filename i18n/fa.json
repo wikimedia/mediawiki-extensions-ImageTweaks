@@ -4,6 +4,10 @@
 			"Jeeputer"
 		]
 	},
+	"imagetweaks-editor-open": "ویرایش سریع این تصویر",
 	"imagetweaks-editor-save": "ذخیره",
-	"imagetweaks-editor-cancel": "لغو"
+	"imagetweaks-editor-undo": "واگردانی",
+	"imagetweaks-editor-redo": "انجام دوباره",
+	"imagetweaks-editor-cancel": "لغو",
+	"apihelp-imagetweaks-param-destfile": "پروندهٔ هدف."
 }
