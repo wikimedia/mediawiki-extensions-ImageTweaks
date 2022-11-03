@@ -6,5 +6,6 @@
 	},
 	"imagetweaks-editor-save": "Shrani",
 	"imagetweaks-editor-undo": "Razveljavi",
+	"imagetweaks-editor-redo": "Uveljavi",
 	"imagetweaks-editor-cancel": "Prekliči"
 }
