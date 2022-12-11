@@ -68,7 +68,7 @@ class UploadFromLocalFile extends UploadFromRequest {
 
 		$url = $url . 'filters:' . $filters . '/' . $fileurl;
 
-		$request = MWHttpRequest::factory( $url, [
+		$request = MediaWikiServices::getInstance()->getHttpRequestFactory()->create( $url, [
 			'method' => 'GET',
 		] );
 
