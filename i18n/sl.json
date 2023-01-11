@@ -4,8 +4,27 @@
 			"Eleassar"
 		]
 	},
+	"imagetweaks-desc": "API in posebne strani za urejanje slik v vikiju",
+	"imagetweaks-beta-preference-label": "Urejanje slik v vikiju",
+	"imagetweaks-beta-preference-desc": "Hitro obračanje, vrtenje ali obrezovanje slik v vikiju v brskalniku",
+	"imagetweaks-editor-open": "Hitro uredi to sliko",
 	"imagetweaks-editor-save": "Shrani",
 	"imagetweaks-editor-undo": "Razveljavi",
 	"imagetweaks-editor-redo": "Uveljavi",
-	"imagetweaks-editor-cancel": "Prekliči"
+	"imagetweaks-editor-rotate-cc": "Zavrti v nasprotni smeri urnega kazalca",
+	"imagetweaks-editor-rotate-c": "Zavrti v smeri urnega kazalca",
+	"imagetweaks-editor-flip-v": "Prezrcali navpično",
+	"imagetweaks-editor-flip-h": "Prezrcali vodoravno",
+	"imagetweaks-editor-crop": "Obreži",
+	"imagetweaks-editor-crop-button": "Obreži",
+	"imagetweaks-editor-cancel": "Prekliči",
+	"apihelp-imagetweaks-description": "Ustvari izpeljano sliko na podlagi slike, ki je že v vikiju.",
+	"apihelp-imagetweaks-extended-description": "Opomba: Obstaja velika verjetnost, da boste z zahtevo za ta modul API-ja presegli omejitev dolžine URL-ja, zato raje uporabite zahtevek POST.",
+	"apihelp-imagetweaks-summary": "Ustvarite izpeljano sliko na podlagi slike, ki je že v vikiju. Opomba: Obstaja velika verjetnost, da boste z zahtevo za ta modul API-ja presegli omejitev dolžine URL-ja, zato raje uporabite zahtevek POST.",
+	"apihelp-imagetweaks-param-text": "Začetno besedilo strani za nove datoteke.",
+	"apihelp-imagetweaks-param-comment": "Komentar nalaganja. Uporablja se tudi kot začetno besedilo strani za nove datoteke, če <var>$1text</var> ni določeno.",
+	"apihelp-imagetweaks-param-file": "Vsebina datoteke.",
+	"apihelp-imagetweaks-param-destfile": "Ciljna datoteka.",
+	"apihelp-imagetweaks-param-filters": "Kateri filtri naj se dodajo strani.",
+	"apihelp-imagetweaks-param-stash": "Če je nastavljeno, bo strežnik datoteko začasno shranil, namesto da bi jo dodal v shrambo."
 }

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Lakejason0"
 		]
 	},
 	"imagetweaks-desc": "用于在wiki上编辑图片的API和特殊页面",
@@ -26,5 +27,5 @@
 	"apihelp-imagetweaks-param-file": "文件内容。",
 	"apihelp-imagetweaks-param-destfile": "目标文件。",
 	"apihelp-imagetweaks-param-filters": "要添加到图片中的过滤器。",
-	"apihelp-imagetweaks-param-stash": "如果设置，服务器将临时藏匿文件而不是加入存储库。"
+	"apihelp-imagetweaks-param-stash": "如果设置，服务器将临时暂存文件而不是加入存储库。"
 }
