@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Metalhead64",
-			"ToBeFree"
+			"ToBeFree",
+			"Justman10000"
 		]
 	},
 	"imagetweaks-desc": "Ergänzt eine API und Spezialseiten zur Bearbeitung von Bildern im Wiki",
@@ -26,5 +27,6 @@
 	"apihelp-imagetweaks-param-comment": "Hochladekommentar. Wird auch als erster Seitentext für neue Dateien verwendet, falls <var>$1text</var> nicht angegeben wurde.",
 	"apihelp-imagetweaks-param-file": "Dateiinhalte.",
 	"apihelp-imagetweaks-param-destfile": "Zieldatei.",
-	"apihelp-imagetweaks-param-filters": "Welche Filter zu dem Bild hinzugefügt werden sollen."
+	"apihelp-imagetweaks-param-filters": "Welche Filter zu dem Bild hinzugefügt werden sollen.",
+	"apihelp-imagetweaks-param-stash": "Wenn festgelegt, speichert der Server die Datei vorübergehend, anstatt sie dem Repository hinzuzufügen."
 }
