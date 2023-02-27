@@ -5,15 +5,27 @@
 			"Amire80"
 		]
 	},
+	"imagetweaks-desc": "API ודפים מיוחדים לעריכת תמונות בוויקי",
+	"imagetweaks-beta-preference-label": "עריכת תמונות בוויקי",
+	"imagetweaks-beta-preference-desc": "להפוך, לסובב או לחתוך במהירות תמונות שכבר נמצאות בוויקי הזה, בדפדפן שלך.",
 	"imagetweaks-editor-open": "עריכת תמונה זו במהירות",
 	"imagetweaks-editor-save": "שמירה",
 	"imagetweaks-editor-undo": "ביטול",
 	"imagetweaks-editor-redo": "חזרה על הפעולה",
 	"imagetweaks-editor-rotate-cc": "סיבוב נגד כיוון השעון",
 	"imagetweaks-editor-rotate-c": "סיבוב בכיוון השעון",
+	"imagetweaks-editor-flip-v": "להפוך אנכית",
+	"imagetweaks-editor-flip-h": "להפוך אופקית",
 	"imagetweaks-editor-crop": "לחתוך",
 	"imagetweaks-editor-crop-button": "לחתוך",
 	"imagetweaks-editor-cancel": "ביטול",
+	"apihelp-imagetweaks-description": "ליצור תמונה נגזרת על סמך תמונה שכבר נמצאת בוויקי.",
 	"apihelp-imagetweaks-extended-description": "הערה: ישנה סבירות גבוהה שתעבור את מגבלת האורך של כתובת האתר עם בקשה למודול ה־API הזה, אז כדאי לך להשתמש בבקשת POST במקום זאת.",
-	"apihelp-imagetweaks-summary": "ליצור תמונה נגזרת על סמך תמונה שכבר נמצאת בוויקי. הערה: ישנה סבירות גבוהה שתעבור את מגבלת האורך של כתובת האתר עם בקשה למודול ה־API הזה, אז כדאי לך להשתמש בבקשת POST במקום זאת."
+	"apihelp-imagetweaks-summary": "ליצור תמונה נגזרת על סמך תמונה שכבר נמצאת בוויקי. הערה: ישנה סבירות גבוהה שתעבור את מגבלת האורך של כתובת האתר עם בקשה למודול ה־API הזה, אז כדאי לך להשתמש בבקשת POST במקום זאת.",
+	"apihelp-imagetweaks-param-text": "טקסט הדף ההתחלתי לקבצים חדשים.",
+	"apihelp-imagetweaks-param-comment": "הערת העלאה. משמש גם בתור טקסט הדף ההתחלתי עבור קבצים חדשים אם <var>$1text</var> אינו מצוין.",
+	"apihelp-imagetweaks-param-file": "תוכן הקובץ.",
+	"apihelp-imagetweaks-param-destfile": "קובץ יעד.",
+	"apihelp-imagetweaks-param-filters": "אילו מסננים להוסיף לתמונה.",
+	"apihelp-imagetweaks-param-stash": "אם זה מוגדר, השרת יאחסן את הקובץ במאגר ההעלאות הזמני (stash) במקום להוסיף אותו למאגר הרגיל."
 }
