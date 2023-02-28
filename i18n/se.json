@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yupik"
+			"Yupik",
+			"Kimberli Mäkäräinen (WMNO)"
 		]
 	},
-	"imagetweaks-editor-save": "Vurke"
+	"imagetweaks-editor-save": "Vurke",
+	"imagetweaks-editor-cancel": "Šluhtte"
 }
