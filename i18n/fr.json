@@ -5,7 +5,8 @@
 			"McDutchie",
 			"Thibaut120094",
 			"Urhixidur",
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
 	"imagetweaks-desc": "API et pages spéciales pour modifier les images dans le wiki",
@@ -22,9 +23,9 @@
 	"imagetweaks-editor-crop": "Retailler",
 	"imagetweaks-editor-crop-button": "Retailler",
 	"imagetweaks-editor-cancel": "Annuler",
-	"apihelp-imagetweaks-description": "Créer une image dérivée basée sur une image déjà sur le wiki.",
-	"apihelp-imagetweaks-extended-description": "Note : Il est très vraisemblable que vous dépasserez la limite de taille de l’URL avec une requête à ce module de l’API ; vous devriez donc utiliser plutôt une requête POST.",
-	"apihelp-imagetweaks-summary": "Créer une image dérivée basée sur une image déjà dans le wiki. Note : Il est très probable que vous dépasserez la limite de taille de l’URL avec une requête à ce module de l’API ; vous devriez donc plutôt utiliser une requête POST.",
+	"apihelp-imagetweaks-description": "Créer une image dérivée basée sur une image déjà présente sur le wiki.",
+	"apihelp-imagetweaks-extended-description": "Note : il est fort probable que vous dépassiez la limite de taille de l’URL avec une requête à ce module de l’API, vous devriez donc utiliser une requête POST à la place.",
+	"apihelp-imagetweaks-summary": "Créer une image dérivée basée sur une image déjà dans le wiki. Note : il est fort probable que vous dépassiez la limite de taille de l’URL avec une requête à ce module de l’API, vous devriez donc utiliser une requête POST à la place.",
 	"apihelp-imagetweaks-param-text": "Texte initial de la page pour les nouveaux fichiers.",
 	"apihelp-imagetweaks-param-comment": "Commentaire sur le téléversement. Utilisé aussi comme texte initial de la page pour les nouveaux fichiers si <var>$1text</var> n’est pas spécifié.",
 	"apihelp-imagetweaks-param-file": "Contenu du fichier.",
