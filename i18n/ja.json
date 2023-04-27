@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Otokoume"
+			"Otokoume",
+			"Kokage si"
 		]
 	},
 	"imagetweaks-desc": "ウィキ上で画像を編集するための API と専用の特別ページを追加する",
 	"imagetweaks-editor-save": "保存",
-	"imagetweaks-editor-cancel": "取り消し"
+	"imagetweaks-editor-cancel": "キャンセル"
 }
