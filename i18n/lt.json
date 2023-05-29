@@ -1,9 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zygimantus"
+			"Zygimantus",
+			"Nokeoo"
 		]
 	},
+	"imagetweaks-desc": "API ir specialūs puslapiai paveikslėliams redaguoti viki",
+	"imagetweaks-beta-preference-label": "Paveikslėlių redagavimas viki",
+	"imagetweaks-beta-preference-desc": "Greitai apverskite, pasukite arba apkarpykite paveikslėlius, jau esančius šiame viki, savo naršyklėje.",
+	"imagetweaks-editor-open": "Greitai redaguokite šį paveikslėlį",
+	"imagetweaks-editor-save": "Išsaugoti",
+	"imagetweaks-editor-undo": "Anuliuoti",
 	"imagetweaks-editor-redo": "Atkurti",
-	"imagetweaks-editor-crop-button": "Iškirpti"
+	"imagetweaks-editor-rotate-cc": "Pasukti prieš laikrodžio rodyklę",
+	"imagetweaks-editor-rotate-c": "Pasukti pagal laikrodžio rodyklę",
+	"imagetweaks-editor-flip-v": "Apversti vertikaliai",
+	"imagetweaks-editor-flip-h": "Apversti horizontaliai",
+	"imagetweaks-editor-crop": "Apkarpyti",
+	"imagetweaks-editor-crop-button": "Iškirpti",
+	"imagetweaks-editor-cancel": "Atšaukti",
+	"apihelp-imagetweaks-description": "Sukurkite išvestinį paveikslėlį pagal paveikslėlį, jau esantį viki.",
+	"apihelp-imagetweaks-param-text": "Pradinis puslapio tekstas naujiems failams.",
+	"apihelp-imagetweaks-param-comment": "Įkėlimo komentaras. Taip pat naudojamas kaip pradinis naujų failų puslapio tekstas, jei nenurodytas <var>$1text</var>.",
+	"apihelp-imagetweaks-param-file": "Failo turinys.",
+	"apihelp-imagetweaks-param-destfile": "Tikslinis failas.",
+	"apihelp-imagetweaks-param-filters": "Kokius filtrus pridėti prie paveikslėlio."
 }
