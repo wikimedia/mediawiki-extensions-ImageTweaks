@@ -18,7 +18,6 @@
 	"imagetweaks-editor-crop": "Crop",
 	"imagetweaks-editor-crop-button": "Crop",
 	"imagetweaks-editor-cancel": "Cancel",
-	"apihelp-imagetweaks-description": "Create a derivative image based on an image already on the wiki.",
 	"apihelp-imagetweaks-extended-description": "Note: There is a strong likelihood that you will go over the URL length limit with a request to this API module, so you should use a POST request instead.",
 	"apihelp-imagetweaks-summary": "Create a derivative image based on an image already on the wiki. Note: There is a strong likelihood that you will go over the URL length limit with a request to this API module, so you should use a POST request instead.",
 	"apihelp-imagetweaks-param-text": "Initial page text for new files.",

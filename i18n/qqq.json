@@ -22,7 +22,6 @@
 	"imagetweaks-editor-crop": "Opens a cropping interface in the image editor.\n{{Identical|Crop}}",
 	"imagetweaks-editor-crop-button": "Finishes a crop in the image editor.\n{{Identical|Crop}}",
 	"imagetweaks-editor-cancel": "Cancels an interactive editing action, like cropping.\n{{Identical|Cancel}}",
-	"apihelp-imagetweaks-description": "{{doc-apihelp-description|imagetweaks}}",
 	"apihelp-imagetweaks-extended-description": "{{doc-apihelp-extended-description|imagetweaks}}",
 	"apihelp-imagetweaks-summary": "{{doc-apihelp-summary|imagetweaks}}",
 	"apihelp-imagetweaks-param-text": "{{doc-apihelp-param|imagetweaks|text}}",
