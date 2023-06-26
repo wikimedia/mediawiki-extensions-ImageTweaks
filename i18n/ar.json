@@ -20,7 +20,6 @@
 	"imagetweaks-editor-crop": "قص",
 	"imagetweaks-editor-crop-button": "قص",
 	"imagetweaks-editor-cancel": "ألغ",
-	"apihelp-imagetweaks-description": "إنشاء صورة مشتقة قائمة على صورة موجودة بالفعل في الويكي.",
 	"apihelp-imagetweaks-extended-description": "ملاحظة: هناك احتمال كبير بأن تتخطى حد طول مسار مع طلب إلى وحدة API هذه; لذلك يجب عليك استخدام طلب POST بدلا من ذلك.",
 	"apihelp-imagetweaks-summary": "إنشاء صورة مشتقة قائمة على صورة موجودة بالفعل في الويكي، ملاحظة: هناك احتمال كبير بأن تتخطى حد طول مسار مع طلب إلى وحدة API هذه; لذلك يجب عليك استخدام طلب POST بدلا من ذلك.",
 	"apihelp-imagetweaks-param-text": "النص الأولي للصفحة للملفات الجديدة.",

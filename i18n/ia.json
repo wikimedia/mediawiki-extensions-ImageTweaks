@@ -18,7 +18,6 @@
 	"imagetweaks-editor-crop": "Taliar",
 	"imagetweaks-editor-crop-button": "Taliar",
 	"imagetweaks-editor-cancel": "Cancellar",
-	"apihelp-imagetweaks-description": "Crear un imagine derivate de un imagine ja presente sur le wiki.",
 	"apihelp-imagetweaks-extended-description": "Nota: es multo probabile que tu excedera le limite de longitude de URL con un requesta a iste modulo API, dunque, tu deberea usar un requesta POST in su loco.",
 	"apihelp-imagetweaks-summary": "Crear un imagine derivate de un imagine ja presente sur le wiki. Nota: es multo probabile que tu excedera le limite de longitude de URL con un requesta a iste modulo API, dunque, tu deberea usar un requesta POST in su loco.",
 	"apihelp-imagetweaks-param-text": "Texto de pagina initial pro nove files.",

@@ -20,7 +20,6 @@
 	"imagetweaks-editor-crop": "Cortar",
 	"imagetweaks-editor-crop-button": "Cortar",
 	"imagetweaks-editor-cancel": "Cancelar",
-	"apihelp-imagetweaks-description": "Criar uma imagem derivada com base numa imagem que já está na wiki.",
 	"apihelp-imagetweaks-extended-description": "Nota: é provável que vá exceder o comprimento limite do URL ao fazer pedidos a este módulo da API, por isso deve usar um pedido POST.",
 	"apihelp-imagetweaks-summary": "Criar uma imagem derivada com base numa imagem que já está na wiki. Nota: é provável que vá exceder o comprimento limite do URL ao fazer pedidos a este módulo da API, por isso deve usar um pedido POST.",
 	"apihelp-imagetweaks-param-text": "Texto inicial da página, para ficheiros novos.",

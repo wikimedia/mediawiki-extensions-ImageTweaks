@@ -19,7 +19,6 @@
 	"imagetweaks-editor-crop": "לחתוך",
 	"imagetweaks-editor-crop-button": "לחתוך",
 	"imagetweaks-editor-cancel": "ביטול",
-	"apihelp-imagetweaks-description": "ליצור תמונה נגזרת על סמך תמונה שכבר נמצאת בוויקי.",
 	"apihelp-imagetweaks-extended-description": "הערה: ישנה סבירות גבוהה שתעבור את מגבלת האורך של כתובת האתר עם בקשה למודול ה־API הזה, אז כדאי לך להשתמש בבקשת POST במקום זאת.",
 	"apihelp-imagetweaks-summary": "ליצור תמונה נגזרת על סמך תמונה שכבר נמצאת בוויקי. הערה: ישנה סבירות גבוהה שתעבור את מגבלת האורך של כתובת האתר עם בקשה למודול ה־API הזה, אז כדאי לך להשתמש בבקשת POST במקום זאת.",
 	"apihelp-imagetweaks-param-text": "טקסט הדף ההתחלתי לקבצים חדשים.",

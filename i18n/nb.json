@@ -18,7 +18,6 @@
 	"imagetweaks-editor-crop": "Beskjær",
 	"imagetweaks-editor-crop-button": "Beskjær",
 	"imagetweaks-editor-cancel": "Avbryt",
-	"apihelp-imagetweaks-description": "Opprett et derivert bilde basert på et bilde som allerede finnes på wikien.",
 	"apihelp-imagetweaks-extended-description": "Merk: Det er stor sannsynlighet for at du vil overstige URL-lengdebegrensningen med en forespørsel til denne API-modulen, så du bør bruke en POST-forespørsel i stedet.",
 	"apihelp-imagetweaks-summary": "Opprett et derivert bilde basert på et bilde som allerede finnes på wikien. Merk: Det er stor sannsynlighet for at du vil overstige URL-lengdebegrensningen med en forespørsel til denne API-modulen, så du bør bruke en POST-forespørsel i stedet.",
 	"apihelp-imagetweaks-param-text": "Utgangspunkt for sidetekst for nye filer.",

@@ -18,7 +18,6 @@
 	"imagetweaks-editor-crop": "Tagghie",
 	"imagetweaks-editor-crop-button": "Tagghie",
 	"imagetweaks-editor-cancel": "Annulle",
-	"apihelp-imagetweaks-description": "Ccreje 'n'immaggine derivate ca se base sus a 'n'immaggine ggià presende sus a uicchi.",
 	"apihelp-imagetweaks-extended-description": "Note: Jè assaije probbabbile ca supranisce 'u limite de lunghezze URL cu 'na richieste a stu module API, quinde avissa ausà 'na richieste de tipe POST.",
 	"apihelp-imagetweaks-summary": "Ccreje 'n'immaggine derivate ca se base sus a 'n'immaggine ggià presende sus a uicchi. Note: Jè assaije probbabbile ca supranisce 'u limite de lunghezze URL cu 'na richieste a stu module API, quinde avissa ausà 'na richieste de tipe POST.",
 	"apihelp-imagetweaks-param-text": "Pàgene iniziale de teste pe le file nuève.",

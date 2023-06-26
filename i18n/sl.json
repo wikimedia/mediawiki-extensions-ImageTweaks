@@ -18,7 +18,6 @@
 	"imagetweaks-editor-crop": "Obreži",
 	"imagetweaks-editor-crop-button": "Obreži",
 	"imagetweaks-editor-cancel": "Prekliči",
-	"apihelp-imagetweaks-description": "Ustvari izpeljano sliko na podlagi slike, ki je že v vikiju.",
 	"apihelp-imagetweaks-extended-description": "Opomba: Obstaja velika verjetnost, da boste z zahtevo za ta modul API-ja presegli omejitev dolžine URL-ja, zato raje uporabite zahtevek POST.",
 	"apihelp-imagetweaks-summary": "Ustvarite izpeljano sliko na podlagi slike, ki je že v vikiju. Opomba: Obstaja velika verjetnost, da boste z zahtevo za ta modul API-ja presegli omejitev dolžine URL-ja, zato raje uporabite zahtevek POST.",
 	"apihelp-imagetweaks-param-text": "Začetno besedilo strani za nove datoteke.",

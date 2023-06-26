@@ -18,7 +18,6 @@
 	"imagetweaks-editor-crop": "Ritaglia",
 	"imagetweaks-editor-crop-button": "Ritaglia",
 	"imagetweaks-editor-cancel": "Annulla",
-	"apihelp-imagetweaks-description": "Crea un'immagine derivata basata su un'immagine già presente nel wiki.",
 	"apihelp-imagetweaks-param-file": "Contenuto del file.",
 	"apihelp-imagetweaks-param-destfile": "File di destinazione."
 }

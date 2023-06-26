@@ -19,7 +19,6 @@
 	"imagetweaks-editor-crop": "Kırp",
 	"imagetweaks-editor-crop-button": "Kırp",
 	"imagetweaks-editor-cancel": "İptal",
-	"apihelp-imagetweaks-description": "Vikide zaten bulunan bir resime dayalı bir türev resim oluşturun.",
 	"apihelp-imagetweaks-extended-description": "Not: Bu API modülüne yapılan bir istekle URL uzunluk sınırını aşma olasılığınız yüksektir, bu nedenle bunun yerine bir POST isteği kullanmalısınız.",
 	"apihelp-imagetweaks-summary": "Vikide zaten bulunan bir resime dayalı bir türev resim oluşturun. Not: Bu API modülüne yapılan bir istekle URL uzunluk sınırını aşma olasılığınız yüksektir, bu nedenle bunun yerine bir POST isteği kullanmalısınız.",
 	"apihelp-imagetweaks-param-text": "Yeni dosyalar için başlangıç sayfası metni.",

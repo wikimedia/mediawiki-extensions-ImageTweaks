@@ -20,7 +20,6 @@
 	"imagetweaks-editor-crop": "Abschneiden",
 	"imagetweaks-editor-crop-button": "Abschneiden",
 	"imagetweaks-editor-cancel": "Abbrechen",
-	"apihelp-imagetweaks-description": "Erstellt ein abgeleitetes Bild basierend auf einem Bild, das bereits auf dem Wiki vorhanden ist.",
 	"apihelp-imagetweaks-extended-description": "Hinweis: Es ist sehr wahrscheinlich, dass eine Anfrage an dieses API-Modul das URL-Längenlimit überschreiten wird. Daher sollte stattdessen eine HTTP-POST-Anfrage verwendet werden.",
 	"apihelp-imagetweaks-summary": "Erstelle ein abgewandeltes Bild auf Grundlage eines bereits im Wiki vorhandenen Bildes. Hinweis: Es ist sehr wahrscheinlich, dass eine Anfrage an dieses API-Modul das URL-Längenlimit überschreiten wird. Daher sollte stattdessen eine HTTP-POST-Anfrage verwendet werden.",
 	"apihelp-imagetweaks-param-text": "Erster Seitentext für neue Dateien.",

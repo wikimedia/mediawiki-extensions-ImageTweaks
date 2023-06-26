@@ -19,7 +19,6 @@
 	"imagetweaks-editor-crop": "裁剪",
 	"imagetweaks-editor-crop-button": "裁剪",
 	"imagetweaks-editor-cancel": "取消",
-	"apihelp-imagetweaks-description": "基於已存在此 wiki 上的圖片，來建立出衍生圖片。",
 	"apihelp-imagetweaks-extended-description": "注意：您對此 API 模組的請求很有可能會超過 URL 長度限制，因此您應該改採用 POST 請求。",
 	"apihelp-imagetweaks-summary": "基於已存在此 wiki 上的圖片，來建立出衍生圖片。注意：您對此 API 模組的請求很有可能會超過 URL 長度限制，因此您應該改採用 POST 請求。",
 	"apihelp-imagetweaks-param-text": "用於新檔案的初始頁面文字。",

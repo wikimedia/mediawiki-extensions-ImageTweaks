@@ -19,7 +19,6 @@
 	"imagetweaks-editor-crop": "Apkarpyti",
 	"imagetweaks-editor-crop-button": "Iškirpti",
 	"imagetweaks-editor-cancel": "Atšaukti",
-	"apihelp-imagetweaks-description": "Sukurkite išvestinį paveikslėlį pagal paveikslėlį, jau esantį viki.",
 	"apihelp-imagetweaks-param-text": "Pradinis puslapio tekstas naujiems failams.",
 	"apihelp-imagetweaks-param-comment": "Įkėlimo komentaras. Taip pat naudojamas kaip pradinis naujų failų puslapio tekstas, jei nenurodytas <var>$1text</var>.",
 	"apihelp-imagetweaks-param-file": "Failo turinys.",
