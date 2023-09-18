@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Joetaras"
 		]
 	},
@@ -21,7 +22,7 @@
 	"apihelp-imagetweaks-extended-description": "Note: Jè assaije probbabbile ca supranisce 'u limite de lunghezze URL cu 'na richieste a stu module API, quinde avissa ausà 'na richieste de tipe POST.",
 	"apihelp-imagetweaks-summary": "Ccreje 'n'immaggine derivate ca se base sus a 'n'immaggine ggià presende sus a uicchi. Note: Jè assaije probbabbile ca supranisce 'u limite de lunghezze URL cu 'na richieste a stu module API, quinde avissa ausà 'na richieste de tipe POST.",
 	"apihelp-imagetweaks-param-text": "Pàgene iniziale de teste pe le file nuève.",
-	"apihelp-imagetweaks-param-comment": "Commende de carecamende. Ausate pure cumme pàgene iniziale de teste pe le file nuève ce <var>$1text</var>  non g'è specificate.",
+	"apihelp-imagetweaks-param-comment": "Commende de carecamende. Ausate pure cumme pàgene iniziale de teste pe le file nuève ce <var>$1text</var> non g'è specificate.",
 	"apihelp-imagetweaks-param-file": "Condenute d'u file.",
 	"apihelp-imagetweaks-param-destfile": "File de destinazione.",
 	"apihelp-imagetweaks-param-filters": "Ce filtre ha aggiungere a l'immaggine.",
