@@ -3,9 +3,13 @@
 		"authors": [
 			"Mainframe98",
 			"Sjoerddebruin",
-			"Romaine"
+			"Romaine",
+			"McDutchie"
 		]
 	},
+	"imagetweaks-desc": "API en speciale pagina’s voor het bewerken van afbeeldingen op de wiki",
+	"imagetweaks-beta-preference-label": "Beeldbewerking op de wiki",
+	"imagetweaks-beta-preference-desc": "Afbeeldingen die al op deze wiki staan snel draaien, roteren of bijsnijden in uw browser.",
 	"imagetweaks-editor-open": "Deze afbeelding snel bewerken",
 	"imagetweaks-editor-save": "Opslaan",
 	"imagetweaks-editor-undo": "Ongedaan maken",
@@ -17,6 +21,12 @@
 	"imagetweaks-editor-crop": "Bijsnijden",
 	"imagetweaks-editor-crop-button": "Bijsnijden",
 	"imagetweaks-editor-cancel": "Annuleren",
+	"apihelp-imagetweaks-extended-description": "Let op: Er is een grote kans dat u de maximale URL-lengte overschrijdt met een verzoek aan deze API-module. U kunt beter een POST-verzoek gebruiken.",
+	"apihelp-imagetweaks-summary": "Maak een afgeleide afbeelding op basis van een afbeelding die al op de wiki staat. Let op: Er is een grote kans dat u de maximale URL-lengte overschrijdt met een verzoek aan deze API-module. U kunt beter een POST-verzoek gebruiken.",
+	"apihelp-imagetweaks-param-text": "Eerste paginatekst voor nieuwe bestanden.",
+	"apihelp-imagetweaks-param-comment": "Opmerking bij de upload. Wordt ook gebruikt als de eerste paginatekst voor nieuwe bestanden als <var>$1text</var> niet is opgegeven.",
 	"apihelp-imagetweaks-param-file": "Bestandsinhoud.",
-	"apihelp-imagetweaks-param-destfile": "Doelbestand."
+	"apihelp-imagetweaks-param-destfile": "Doelbestand.",
+	"apihelp-imagetweaks-param-filters": "Welke filters aan de afbeelding moeten worden toegevoegd.",
+	"apihelp-imagetweaks-param-stash": "Als dit is ingesteld, zal de server het bestand tijdelijk opslaan in plaats van het aan de repository toe te voegen."
 }
