@@ -28,5 +28,5 @@
 	"apihelp-imagetweaks-param-file": "Bestandsinhoud.",
 	"apihelp-imagetweaks-param-destfile": "Doelbestand.",
 	"apihelp-imagetweaks-param-filters": "Welke filters aan de afbeelding moeten worden toegevoegd.",
-	"apihelp-imagetweaks-param-stash": "Als dit is ingesteld, zal de server het bestand tijdelijk opslaan in plaats van het aan de repository toe te voegen."
+	"apihelp-imagetweaks-param-stash": "Als dit is ingesteld, zal de server het bestand tijdelijk opbergen in plaats van het aan de repository toe te voegen."
 }
