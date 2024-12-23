@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Banjo",
-			"Elisardojm"
+			"Elisardojm",
+			"Toliño"
 		]
 	},
-	"imagetweaks-desc": "API e páxinas especiais para a edición de imaxes na wiki",
-	"imagetweaks-beta-preference-label": "Edición de imaxes na wiki",
-	"imagetweaks-beta-preference-desc": "Voltear, rotar ou recortar rápidamente imaxes que xa están na wiki, desde o seu navegador.",
-	"imagetweaks-editor-open": "Editar rápidamente esta imaxe",
+	"imagetweaks-desc": "API e páxinas especiais para a edición de imaxes no wiki",
+	"imagetweaks-beta-preference-label": "Edición de imaxes no wiki",
+	"imagetweaks-beta-preference-desc": "Voltear, rotar ou recortar rapidamente imaxes que xa están no wiki, desde o teu navegador.",
+	"imagetweaks-editor-open": "Editar rapidamente esta imaxe",
 	"imagetweaks-editor-save": "Gardar",
 	"imagetweaks-editor-undo": "Desfacer",
 	"imagetweaks-editor-redo": "Refacer",
@@ -20,10 +21,12 @@
 	"imagetweaks-editor-crop-button": "Recortar",
 	"imagetweaks-editor-cancel": "Cancelar",
 	"apihelp-imagetweaks-description": "Crear unha imaxe derivada dunha imaxe que xa está na wiki.",
+	"apihelp-imagetweaks-extended-description": "Nota: Existe unha gran probabilidade de que superes o límite de lonxitude do enderezo URL cunha solicitude a este módulo da API, polo que deberías utilizar unha solicitude POST.",
+	"apihelp-imagetweaks-summary": "Crear unha imaxe derivada baseada nunha imaxe que xa está no wiki. Nota: Existe unha gran probabilidade de que superes o límite de lonxitude do enderezo URL cunha solicitude a este módulo da API, polo que deberías utilizar unha solicitude POST.",
 	"apihelp-imagetweaks-param-text": "Texto inicial da páxina para os novos ficheiros.",
 	"apihelp-imagetweaks-param-comment": "Subir comentario. Tamén usado como texto inicial da páxina para os novos ficheiros se <var>$1text</var> non está especificada.",
 	"apihelp-imagetweaks-param-file": "Contido do ficheiro.",
-	"apihelp-imagetweaks-param-destfile": "Ficheiro obxectivo.",
+	"apihelp-imagetweaks-param-destfile": "Ficheiro de destino.",
 	"apihelp-imagetweaks-param-filters": "Que filtros engadir á imaxe.",
 	"apihelp-imagetweaks-param-stash": "Se está indicado, o servidor almacenará o ficheiro temporalmente no canto de engadilo ó repositorio."
 }
