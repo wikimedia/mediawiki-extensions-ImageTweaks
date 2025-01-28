@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Maroen1990",
+			"XIDME",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح"
 		]
@@ -19,7 +20,7 @@
 	"imagetweaks-editor-flip-h": "القلب أفقيا",
 	"imagetweaks-editor-crop": "قص",
 	"imagetweaks-editor-crop-button": "قص",
-	"imagetweaks-editor-cancel": "ألغ",
+	"imagetweaks-editor-cancel": "إلغاء",
 	"apihelp-imagetweaks-extended-description": "ملاحظة: هناك احتمال كبير بأن تتخطى حد طول مسار مع طلب إلى وحدة API هذه; لذلك يجب عليك استخدام طلب POST بدلا من ذلك.",
 	"apihelp-imagetweaks-summary": "إنشاء صورة مشتقة قائمة على صورة موجودة بالفعل في الويكي، ملاحظة: هناك احتمال كبير بأن تتخطى حد طول مسار مع طلب إلى وحدة API هذه; لذلك يجب عليك استخدام طلب POST بدلا من ذلك.",
 	"apihelp-imagetweaks-param-text": "النص الأولي للصفحة للملفات الجديدة.",
