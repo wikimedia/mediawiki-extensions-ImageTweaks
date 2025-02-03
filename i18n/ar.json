@@ -3,7 +3,8 @@
 		"authors": [
 			"Maroen1990",
 			"ديفيد",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"XIDME"
 		]
 	},
 	"imagetweaks-desc": "API وصفحات خاصة لتحرير الصور في الويكي",
@@ -19,7 +20,7 @@
 	"imagetweaks-editor-flip-h": "القلب أفقيا",
 	"imagetweaks-editor-crop": "قص",
 	"imagetweaks-editor-crop-button": "قص",
-	"imagetweaks-editor-cancel": "ألغ",
+	"imagetweaks-editor-cancel": "إلغاء",
 	"apihelp-imagetweaks-description": "إنشاء صورة مشتقة قائمة على صورة موجودة بالفعل في الويكي.",
 	"apihelp-imagetweaks-extended-description": "ملاحظة: هناك احتمال كبير بأن تتخطى حد طول مسار مع طلب إلى وحدة API هذه; لذلك يجب عليك استخدام طلب POST بدلا من ذلك.",
 	"apihelp-imagetweaks-summary": "إنشاء صورة مشتقة قائمة على صورة موجودة بالفعل في الويكي، ملاحظة: هناك احتمال كبير بأن تتخطى حد طول مسار مع طلب إلى وحدة API هذه; لذلك يجب عليك استخدام طلب POST بدلا من ذلك.",
