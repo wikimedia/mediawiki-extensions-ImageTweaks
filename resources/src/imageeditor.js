@@ -57,7 +57,7 @@
 		 * @private
 		 * @property {Caman} image Caman image object
 		 */
-		this.image = Caman( '#mwe-imageeditor-image', config.cb || function () {} );
+		this.image = Caman( '#mwe-imageeditor-image', config.cb || ( () => {} ) );
 
 		/**
 		 * @private
@@ -167,7 +167,7 @@
 	 * Cleans up interface loaded by interactive tools
 	 */
 	mw.ImageEditor.prototype.cleanUpTools = function () {
-		$.each( this.tools, function ( name, tool ) {
+		$.each( this.tools, ( name, tool ) => {
 			if (
 				tool.destroyInterface !== null &&
 				tool.destroyInterface !== undefined
@@ -199,7 +199,7 @@
 	 * @private
 	 */
 	mw.ImageEditor.prototype.setupToolbar = function () {
-		var editor = this;
+		const editor = this;
 
 		this.registerCoreTools();
 		this.setupUndoRedo();
@@ -211,7 +211,7 @@
 		this.saveButton = new OO.ui.ButtonWidget( {
 			label: mw.message( 'imagetweaks-editor-save' ).text(),
 			flags: [ 'progressive', 'primary' ]
-		} ).on( 'click', function () {
+		} ).on( 'click', () => {
 			editor.emit( 'save' );
 		} );
 
@@ -291,7 +291,7 @@
 	 * @private
 	 */
 	mw.ImageEditor.prototype.undo = function () {
-		var lastAction = this.actions[ this.currentAction ];
+		const lastAction = this.actions[ this.currentAction ];
 		this.tools[ lastAction.name ].undoAction( this.image, lastAction.action );
 		this.currentAction--;
 		this.updateUndoRedoState();
@@ -303,7 +303,7 @@
 	 * @private
 	 */
 	mw.ImageEditor.prototype.redo = function () {
-		var nextAction = this.actions[ this.currentAction + 1 ];
+		const nextAction = this.actions[ this.currentAction + 1 ];
 		this.tools[ nextAction.name ].doAction( this.image, nextAction.action );
 		this.currentAction++;
 		this.updateUndoRedoState();
@@ -315,7 +315,7 @@
 	 * @private
 	 */
 	mw.ImageEditor.prototype.setupUndoRedo = function () {
-		var editor = this;
+		const editor = this;
 
 		// Undo
 		function UndoTool() {
@@ -403,9 +403,9 @@
 	 * @private
 	 */
 	mw.ImageEditor.prototype.setupTools = function () {
-		$.each( this.tools, function ( tool ) {
+		$.each( this.tools, ( tool ) => {
 			this.setupTool( this.tools[ tool ] );
-		}.bind( this ) );
+		} );
 	};
 
 	/**
@@ -415,7 +415,7 @@
 	 * @private
 	 */
 	mw.ImageEditor.prototype.setupTool = function ( tool ) {
-		var editor = this;
+		const editor = this;
 
 		function Tool() {
 			Tool.super.apply( this, arguments );
@@ -427,13 +427,13 @@
 		Tool.static.title = tool.title;
 
 		Tool.prototype.onSelect = function () {
-			var action;
+			let action;
 			if ( tool.isInteractive ) {
 				editor.setInteractiveTool( true );
 				tool.getAction( editor.image, editor.interactivePanel )
-					.done( function ( action ) {
+					.done( ( action ) => {
 						editor.addAction( tool.name, action );
-					} ).always( function () {
+					} ).always( () => {
 						editor.setInteractiveTool( false );
 					} );
 
@@ -472,7 +472,7 @@
 	 * @private
 	 */
 	mw.ImageEditor.prototype.registerCoreTools = function () {
-		var rotateCounterClockwise, rotateClockwise, flipVertical, flipHorizontal, crop;
+		let rotateCounterClockwise, rotateClockwise, flipVertical, flipHorizontal, crop;
 
 		rotateCounterClockwise = new mw.ImageTool( {
 			name: 'rotateCounterClockwise',
@@ -546,7 +546,7 @@
 		} );
 
 		crop.setupInterface = function ( image, panel ) {
-			var controls;
+			let controls;
 
 			this.widthInput = new OO.ui.TextInputWidget( { disabled: true } );
 			this.heightInput = new OO.ui.TextInputWidget( { disabled: true } );
@@ -561,8 +561,8 @@
 				flags: [ 'destructive' ]
 			} );
 
-			this.crop.on( 'click', function () {
-				var action = {
+			this.crop.on( 'click', () => {
+				const action = {
 					width: this.widthInput.getValue(),
 					height: this.heightInput.getValue(),
 					x: this.xInput.getValue(),
@@ -575,7 +575,7 @@
 				this.deferred.resolve( action );
 
 				this.$cover.remove();
-			}.bind( this ) );
+			} );
 
 			this.cancel.on( 'click', this.destroyInterface.bind( this ) );
 
@@ -635,14 +635,14 @@
 
 			// Use cropping rectanble bounds to show part of
 			// the image and update text boxes
-			this.$cropRect.on( 'drag resize', function () {
+			this.$cropRect.on( 'drag resize', () => {
 				this.translateCropToCanvas();
-			}.bind( this ) );
+			} );
 			this.translateCropToCanvas();
 		};
 
 		crop.translateCropToCanvas = function () {
-			var
+			const
 				pos = this.$cropRect.position(),
 				left = pos.left,
 				top = pos.top,
@@ -677,7 +677,7 @@
 		};
 
 		crop.undoAction = function ( image, action ) {
-			var canvas = document.createElement( 'canvas' );
+			const canvas = document.createElement( 'canvas' );
 			canvas.height = action.oldImageData.height;
 			canvas.width = action.oldImageData.width;
 			canvas.getContext( '2d' ).putImageData( action.oldImageData, 0, 0 );

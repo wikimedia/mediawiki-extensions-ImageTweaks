@@ -1,7 +1,7 @@
 {
 	"root": true,
 	"extends": [
-		"wikimedia/client-es5",
+		"wikimedia/client",
 		"wikimedia/mediawiki"
 	],
 	"globals": {
@@ -14,6 +14,8 @@
 		"valid-jsdoc": "off",
 		"no-shadow": "warn",
 		"no-useless-escape": "warn",
-		"es-x/no-resizable-and-growable-arraybuffers": "warn"
+		"es-x/no-resizable-and-growable-arraybuffers": "warn",
+		"prefer-const": "warn",
+		"no-var": "warn"
 	}
 }

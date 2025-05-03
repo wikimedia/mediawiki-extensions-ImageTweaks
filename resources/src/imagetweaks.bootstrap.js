@@ -1,13 +1,13 @@
 ( function ( mw, $ ) {
-	var link = mw.util.addPortletLink(
+	const link = mw.util.addPortletLink(
 		'p-tb',
 		'#',
 		mw.message( 'imagetweaks-editor-open' ),
 		'imagetweaks-editor-open'
 	);
 
-	$( link ).on( 'click', function ( e ) {
-		var modulePromise = mw.loader.using( 'ImageEditor' ),
+	$( link ).on( 'click', ( e ) => {
+		const modulePromise = mw.loader.using( 'ImageEditor' ),
 			api = new mw.Api(),
 			title = mw.Title.newFromText( mw.config.get( 'wgPageName' ) ),
 			apiPromise = api.get( {
@@ -18,7 +18,7 @@
 				iiprop: 'url'
 			} );
 
-		$.when( modulePromise, apiPromise ).then( function ( moduleArgs, apiArgs ) {
+		$.when( modulePromise, apiPromise ).then( ( moduleArgs, apiArgs ) => {
 			var result = apiArgs[ 0 ],
 				extension = mw.Title.normalizeExtension( title.getExtension() || '' ),
 				editor = new mw.ImageEditor( {
@@ -31,14 +31,14 @@
 			$( 'body' ).append( editor.$element );
 			editor.initialize();
 
-			$( document ).on( 'keyup', function ( e ) {
+			$( document ).on( 'keyup', ( e ) => {
 				if ( e.keyCode === 27 && !( e.altKey || e.ctrlKey || e.shiftKey || e.metaKey ) ) {
 					editor.close();
 				}
 			} );
 
-			editor.on( 'save', function () {
-				var i, action, args, right, bottom,
+			editor.on( 'save', () => {
+				let i, action, args, right, bottom,
 					actions = editor.actions,
 					filters = [];
 
@@ -73,8 +73,8 @@
 					itdestfile: title.getNameText() + ' (edited - ' + Date.now() + ').' + extension,
 					itfilters: filters.join( ':' ),
 					itstash: true
-				} ).done( function ( result ) {
-					var dialog = new mw.Upload.Dialog( {
+				} ).done( ( result ) => {
+					const dialog = new mw.Upload.Dialog( {
 							booklet: {
 								filekey: result.imagetweaks.filekey
 							}

@@ -1,5 +1,5 @@
 Caman.Plugin.register( 'flip', function ( axis ) {
-	var canvas, ctx, width, height;
+	let canvas, ctx, width, height;
 	width = this.canvas.width;
 	height = this.canvas.height;
 
