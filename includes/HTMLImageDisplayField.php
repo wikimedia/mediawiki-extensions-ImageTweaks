@@ -21,7 +21,9 @@
  * @ingroup Upload
  */
 
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 
 class HTMLImageDisplayField extends HTMLFormField {
 	function getInputHTML( $value ) {
