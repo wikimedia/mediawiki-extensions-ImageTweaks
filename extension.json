@@ -10,7 +10,7 @@
 	"type": "other",
 	"callback": "ImageTweaksHooks::onRegistration",
 	"requires": {
-		"MediaWiki": ">= 1.40.0"
+		"MediaWiki": ">= 1.41.0"
 	},
 	"config": {
 		"ImageTweaksEnabled": false,
@@ -124,7 +124,7 @@
 		"UploadFromRequest": "includes/UploadFromRequest.php"
 	},
 	"ConfigRegistry": {
-		"imagetweaks": "GlobalVarConfig::newInstance"
+		"imagetweaks": "MediaWiki\\Config\\GlobalVarConfig::newInstance"
 	},
 	"manifest_version": 1
 }
